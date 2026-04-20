@@ -1,6 +1,6 @@
-Helping OpenTTD Enthusiasts navigate 'the Matrix' of information pertaining to the game is my main mission.
+Helping OpenTTD enthusiasts navigate through the 'Matrix' of information pertaining to the game is my mission.
 
-The journey to building an presence in OpenTTD can be overwhelming, filled with challenges, frustrations, and uncertainties. My mission is to bridge the gap between where you are now and where you dream of being.
+The journey to building a presence in OpenTTD can be overwhelming, filled with challenges, frustrations, and uncertainties. My mission is to bridge the gap between where you are now and where you dream of being.
 
 I am committed to equipping budding gamer(s) with resources, tools, and actionable strategies to confidently establish their Empire and grow successful transportation networks.
 
