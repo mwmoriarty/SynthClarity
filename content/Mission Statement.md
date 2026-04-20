@@ -1,4 +1,4 @@
-Helping OpenTTD Enthusiasts navigate 'the Matrix', as I call it of information pertaining to the game.
+Helping OpenTTD Enthusiasts navigate 'the Matrix' of information pertaining to the game is my main mission.
 
 The journey to building an presence in OpenTTD can be overwhelming, filled with challenges, frustrations, and uncertainties. My mission is to bridge the gap between where you are now and where you dream of being.
 
