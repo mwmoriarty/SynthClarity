@@ -1,4 +1,8 @@
 ```
+---
+title: Get in Touch!
+---
+``````
 ### Get in Touch
 <form action="https://formspree.io" method="POST" style="display: flex; flex-direction: column; gap: 10px; max-width: 400px;">
   <label>

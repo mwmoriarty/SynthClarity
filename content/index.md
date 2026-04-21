@@ -2,6 +2,11 @@
 title: Welcome to OpenTTD Clarity Matrix!
 ---
 ```
+---
+title: Welcome to OpenTTD Clarity Matrix!
+---
+```
+```
 # OpenTTD Clarity Matrix
 *A targeted repository for precise OpenTTD data.*
 
