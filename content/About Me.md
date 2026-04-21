@@ -1,3 +1,6 @@
+---
+title: About Me
+---
 Hi, I’m Michael!
 
 I am a [Front-End Developer](https://www.ttdclarity.com/front-end-developer), content creator, and educator passionate about empowering others to thrive in the digital world. I graduated from the _Electronics Engineering Technology_ Cooperative program at [Fanshawe College](https://www.fanshawe.ca/) in London, ON, Canada, in 1996 and earned my certification as an _Applied Science Technologist_ from [O.A.C.E.T.T.](http://oacett.org/ shortly after.
