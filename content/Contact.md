@@ -2,8 +2,9 @@
 title: Get in Touch!
 ---
 
+```
 ### Get in Touch
-<form action="https://formspree.io" method="POST" style="display: flex; flex-direction: column; gap: 10px; max-width: 400px;">
+<action="https://formspree.io/f/mkokzakz" method="POST" style="display: flex; flex-direction: column; gap: 10px; max-width: 400px;">
   <label>
     Full Name:
     <input type="text" name="name" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
@@ -23,3 +24,4 @@ title: Get in Touch!
     Send Message
   </button>
 </form>
+```
