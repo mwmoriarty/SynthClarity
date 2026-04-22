@@ -7,13 +7,11 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "TTD Clarity",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
+    analytics: {provider: "plausible",},
     locale: "en-US",
     baseUrl: "www.ttdclarity.com",
     ignorePatterns: ["private", "templates", ".obsidian"],

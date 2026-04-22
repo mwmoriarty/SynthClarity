@@ -4,11 +4,8 @@
 @font-face {font-family:'Neon'; src:url('/static/fonts/Neon.woff2') format('woff2'); font-weight:normal; font-style:normal; font-display:swap}
 @font-face {font-family:'Radon'; src:url('/static/fonts/Radon.woff2') format('woff2'); font-weight:normal; font-style:normal; font-display:swap}
 @font-face {font-family:'Xenon'; src:url('/static/fonts/Xenon.woff2') format('woff2'); font-weight:normal; font-style:normal; font-display:swap}
-a {font-family:'Radon', cursive; text-decoration-thickness:1px;
-  color:var(--plum-logo); text-decoration:underline dotted;
-  &:hover {color:oklch(0.45 0.06 320); text-decoration:underline solid}
-}
-code {font-family:'Krypton', monospace; background-color:oklch(0.97 0.01 140)}
+a {font-family:'Argon', monospace; font-weight:400; color:var(--plum-logo); &:hover {color:oklch(0.45 0.06 320); text-decoration:underline solid}}
+code {font-family:'Krypton', monospace; font-size:0.9em; background:oklch(0.98 0.01 140); border:1px solid oklch(0.36 0.04 140 / 0.1)}
 :root {
   --green-black:oklch(0.20 0.02 140);
   --green-logo:oklch(0.36 0.04 140);
@@ -18,7 +15,7 @@ body {color:var(--green-logo)}
  h1 { color:var(--green-black); border-left:3px solid var(--plum-logo); padding-left:1rem}
  h2 { color:oklch(0.25 0.03 140)}
  h3 { color:oklch(0.30 0.04 140)}
- h4 { olor:var(--green-logo)}
+ h4 { color:var(--green-logo)}
 
 [aria-byte-theme="dark"] {
   --green-black:oklch(0.95 0.01 140);
@@ -30,3 +27,9 @@ body {color:var(--green-logo)}
     color:oklch(0.90 0.05 140);
   }
 }
+.page-title a {display: block; width:280px; height:70px; 
+  background-image:url("/static/logo.png");
+  background-size:contain; background-repeat:no-repeat;
+  color:transparent; overflow:hidden
+}
+
