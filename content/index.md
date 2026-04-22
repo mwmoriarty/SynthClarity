@@ -1,11 +1,6 @@
 ---
 title: Home
 ---
-
----
-title: Home
----
-
 # OpenTTD Clarity Matrix
 *A targeted repository for precise OpenTTD data.*
 
@@ -28,4 +23,5 @@ title: Home
 - [[Targeted Search]] — *How to find niche forum info.*
 
 ---
-> **Status:** Current with OpenTTD v14.0+
+> **Status:** Current with OpenTTD v15.3
+---

@@ -3,7 +3,6 @@ import * as Plugin from "./quartz/plugins"
 
 /**
  * Quartz 4 Configuration
- *
  * See https://quartz.jzhao.xyz/configuration for more information.
  */
 const config: QuartzConfig = {
@@ -20,35 +19,33 @@ const config: QuartzConfig = {
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
-      fontOrigin: "googleFonts",
-      cdnCaching: true,
+      fontOrigin: "local",
+      cdnCaching: false,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "Xenon",
+        body: "Neon",
+        code: "Krypton",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#FAF9F6",      // Off-white "Paper" background
+          lightgray: "#E5E5E5",  // Borders
+          gray: "#B8B8B8",       // Graph Lines
+          darkgray: "#515944",   // Body Text (Logo Green)
+          dark: "#20221E",       // H1/Titles (Near-black Green)
+          secondary: "#645664",  // Links (Logo Plum)
+          tertiary: "#847584",   // Hover (Lighter Plum)
+          highlight: "rgba(100, 86, 100, 0.1)",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#0A0C08",      // Forest Green
+          lightgray: "#22261B",  // Borders
+          gray: "#444B39",       // Graph Lines
+          darkgray: "#CED4C5",   // Body Text (Soft Sage)
+          dark: "#F4F7F0",       // H1/Titles (Mint White)
+          secondary: "#C2B2C2",  // Plum (Lavender)
+          tertiary: "#D8CDD8",   // Hover Plum
+          highlight: "rgba(194, 178, 194, 0.15)",
         },
       },
     },
