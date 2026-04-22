@@ -1,5 +1,5 @@
 ---
-title: My Mission
+title: Mission
 ---
 Helping OpenTTD enthusiasts navigate through the 'Matrix' of information pertaining to the game is my mission.
 

@@ -1,5 +1,5 @@
 ---
-title: Get in Touch!
+title: Contact
 ---
 ---
 ### Get in Touch
