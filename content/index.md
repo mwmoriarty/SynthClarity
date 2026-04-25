@@ -1,27 +1,46 @@
 ---
-title: Home
+title: TTDClarity | The Digital Museum & Strategy Guide
+layout: page
 ---
-# OpenTTD Clarity Matrix
-*A targeted repository for precise OpenTTD data.*
+# Welcome to TTDClarity
 
----
+**TTDClarity** is a curated navigational layer for the transport simulation enthusiast. In a world of fragmented wikis, decade-old forum threads, and endless video tutorials, we provide the signal through the noise. 
 
-## 🚂 The Core Essentials
-*Direct paths to fundamental game mechanics.*
-- [[Base Game Logic]] — *What the Wiki misses.*
-- [[Version Compatibility]] — *JGRPP vs. Vanilla.*
-- [[Source Index]] — *Where this data comes from.*
-
-## 🛠️ Advanced Engineering
-*Hard data for power users.*
-- [[Signal Logic Matrix]] — *Presignals to Path signals.*
-- [[Station Throughput]] — *Mathematical efficiency models.*
-- [[NewGRF Reference]] — *Targeted mod data.*
-
-## 🗺️ Searchable Indexes
-- [[Topic Directory]] — *A-Z of technical terms.*
-- [[Targeted Search]] — *How to find niche forum info.*
+Our goal is simple: **Clear the path from confusion to mastery.**
 
 ---
-> **Status:** Current with OpenTTD v15.3
+
+## 🧭 Navigate the Knowledge Base
+
+Choose your current objective to dive into our structured content silos:
+
+### [🚨 Pain Points & Troubleshooting](silo-pain-points)
+*Stuck? Start here.* Targeted solutions for common friction points: signal deadlocks, station bottlenecks, and "why isn't this train moving?"
+
+### [🏗️ Mechanics & Strategy](silo-mechanics)
+*The 'How-To' of Empire Building.*
+From early-game economic survival to advanced mainline/branchline network theory.
+
+### [📦 The Modding Ecosystem](silo-mods)
+*Demystifying NewGRFs.*
+Deep dives into complex industry sets like **FIRS**, **C.H.I.P.S.**, and **WR Extra**. Detailed supply chain charts and mod compatibility guides.
+
+### [🌐 The Hub](silo-hub)
+*The Best of the Community.*
+A hand-picked directory of essential Wiki pages, legendary YouTube tutorials, and active forum discussions.
+
 ---
+
+## 🤝 Open Source & Collaborative
+
+This project is built **"brick by brick"** and hosted entirely on GitHub. We thrive on community accuracy.
+
+* **Found a mistake?** Submit a Pull Request.
+* **Have a suggestion?** Open an Issue.
+* **Want to contribute?** See our [[Contact]] or [[About]] pages for how to get involved.
+
+> [!INFO] **Site Status**
+> TTDClarity is currently being built in public. If a link is grayed out, the "brick" is still being laid. Check back often.
+
+---
+[Mission](Mission) | [About](About) | [Contact](Contact)
