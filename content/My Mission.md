@@ -1,6 +1,7 @@
 ---
-title: Mission
+title: My Mission
 ---
+
 Helping OpenTTD enthusiasts navigate through the 'Matrix' of information pertaining to the game is my mission.
 
 The journey to building a presence in OpenTTD can be overwhelming, filled with challenges, frustrations, and uncertainties. My mission is to bridge the gap between where you are now and where you dream of being.
