@@ -1,7 +1,7 @@
-
 ---
-title: Pain Points
-tags: [silo, troubleshooting]
+title: Signal Deadlocks
+tags: [logistics, signaling, pain-point]
+date: 2026-04-25
 ---
 
 # Pain Points & Troubleshooting
@@ -21,7 +21,6 @@ This section is dedicated to resolving the specific friction points that lead to
 ## Cargo & Industry
 * **Station Rating Drop**: How to keep cargo waiting at the docks from vanishing.
 * **Primary Industry Closure**: Strategies for when a crucial FIRS or WR Extra industry shuts down.
-
 ---
 > [!TIP] **Collaborate**
 > If you have a specific "pain point" not listed here, please [Open an Issue](https://github.com/your-username/TTDClarity/issues) on GitHub.
