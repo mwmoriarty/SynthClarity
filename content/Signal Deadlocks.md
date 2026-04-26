@@ -1,4 +1,6 @@
-
+---
+title: Signal Deadlocks
+tags: [
 One of the most frustrating "pain points" for any player—new or veteran—is the discovery of a gridlocked network. A single misplaced signal can halt an entire economic engine. 
 
 ## The Symptom
