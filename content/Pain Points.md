@@ -1,9 +1,9 @@
-```
+
 ---
 title: Pain Points
 tags: [silo, troubleshooting]
 ---
-```
+
 # Pain Points & Troubleshooting
 
 This section is dedicated to resolving the specific friction points that lead to "network paralysis" or economic collapse in OpenTTD. Every entry here is designed to be a quick-fix guide for enthusiasts.
