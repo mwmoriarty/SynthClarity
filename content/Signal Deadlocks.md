@@ -1,12 +1,15 @@
 ---
 title: Signal Deadlocks
-tags: [
+tags: [logistics, signaling, pain-point]
+date: 2026-04-25
+---
+
 One of the most frustrating "pain points" for any player—new or veteran—is the discovery of a gridlocked network. A single misplaced signal can halt an entire economic engine. 
 
 ## The Symptom
 Trains are facing each other on a single track, or a junction is "frozen" with no trains able to enter or exit, even though there is empty track ahead.
 
-## The Fix: "The Space Rule"
+## The Fix: 'The Spacing Rule'
 The primary cause of deadlocks is often **insufficient spacing** between signals or junctions. 
 
 ### 1. The Length Check
@@ -19,8 +22,8 @@ In modern OpenTTD, **Path Signals** are the gold standard.
 * Replace standard block signals at junction entrances with **Path Signals**.
 * These allow trains to reserve a "path" through the junction, only entering if they have a clear exit.
 
-## Technical Reference (Krypton Block)
-If you are using specific NewGRFs that modify signal behavior, check your `openttd.cfg` for these entries to ensure pathfinding is optimized:
+## Technical Reference
+If you are using specific NewGRFs that modify signal behavior, check your `openttd.cfg` for these entries to ensure pathfinder is optimized:
 ```
 text
 [pf]

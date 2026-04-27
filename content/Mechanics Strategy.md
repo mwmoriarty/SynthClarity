@@ -1,8 +1,8 @@
 ---
-title: Silo Mechanics
+title: Mechanics Strategy
 ---
 
-# Silo Mechanics
+# Mechanics & Strategy
 
 This section covers the underlying logic of train path finding and network throughput.
 

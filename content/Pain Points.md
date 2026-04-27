@@ -1,7 +1,6 @@
 ---
-title: Signal Deadlocks
-tags: [logistics, signaling, pain-point]
-date: 2026-04-25
+title: Pain Points
+tags: [silo, troubleshooting]
 ---
 
 # Pain Points & Troubleshooting
@@ -9,7 +8,7 @@ date: 2026-04-25
 This section is dedicated to resolving the specific friction points that lead to "network paralysis" or economic collapse in OpenTTD. Every entry here is designed to be a quick-fix guide for enthusiasts.
 
 ## Signaling & Traffic Flow
-* **[[resolving-signal-deadlocks|Signal Deadlocks]]**: How to identify and fix trains facing each other.
+* **[[Signal-Deadlocks|Signal Deadlocks]]**: How to identify and fix trains facing each other.
 * **Junction Saturation**: Techniques for preventing "The Great Clog" at main interchanges.
 * **Path Signal Transitions**: Moving from legacy Block Signals to modern Path Logic.
 
@@ -23,6 +22,6 @@ This section is dedicated to resolving the specific friction points that lead to
 * **Primary Industry Closure**: Strategies for when a crucial FIRS or WR Extra industry shuts down.
 ---
 > [!TIP] **Collaborate**
-> If you have a specific "pain point" not listed here, please [Open an Issue](https://github.com/your-username/TTDClarity/issues) on GitHub.
+> If you have a specific "pain point" not listed here, please [Open an Issue](https://github.com/mwmoriarty/TTDClarity/issues) on GitHub.
 ---
 [[index|← Back to Home]]

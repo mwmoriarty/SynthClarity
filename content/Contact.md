@@ -1,9 +1,9 @@
 ---
-title: Contact Me
+title: Contact
 ---
----
+
 ### Get in Touch
----
+
 <form action="https://formspree.io/f/mkokzakz" method="POST">
 
   <label>

@@ -20,30 +20,30 @@ const config: QuartzConfig = {
       fontOrigin: "local",
       cdnCaching: false,
       typography: {
-        header: "Xenon",
-        body: "Neon",
+        header: "Merriweather",
+        body: "Open Sans",
         code: "Krypton",
       },
       colors: {
         lightMode: {
-          light: "#FAF9F6",      // Off-white "Paper" background
-          lightgray: "#E5E5E5",  // Borders
-          gray: "#B8B8B8",       // Graph Lines
-          darkgray: "#515944",   // Body Text (Logo Green)
-          dark: "#20221E",       // H1/Titles (Near-black Green)
-          secondary: "#645664",  // Links (Logo Plum)
-          tertiary: "#847584",   // Hover (Lighter Plum)
-          highlight: "rgba(100, 86, 100, 0.1)",
+          light: "#fefffe",      // Off-white "Paper" background
+          lightgray: "#d5ddd5",  // Borders
+          gray: "#9e9e9e",       // Graph Lines
+          darkgray: "#272d27",   // Body Text (Logo Green)
+          dark: "#738a6e",       // H1/Titles (Near-black Green)
+          secondary: "#D8CDD8",  // Links (Logo Plum)
+          tertiary: "#C2B2C2",   // Hover (Lighter Plum)
+          highlight: "rgba(100, 86, 100, 0.05)",
         },
         darkMode: {
-          light: "#0A0C08",      // Forest Green
-          lightgray: "#22261B",  // Borders
-          gray: "#444B39",       // Graph Lines
-          darkgray: "#CED4C5",   // Body Text (Soft Sage)
-          dark: "#F4F7F0",       // H1/Titles (Mint White)
-          secondary: "#C2B2C2",  // Plum (Lavender)
-          tertiary: "#D8CDD8",   // Hover Plum
-          highlight: "rgba(194, 178, 194, 0.15)",
+          light: "#0d0f0d",     // Forest Green
+          lightgray: "#888888", // Borders
+          gray: "#a9a99a",      // Graph Lines
+          darkgray: "#c7c5c7",  // Body Text (Soft Sage)
+          dark: "#f5fff5",      // H1/Titles (Mint White)
+          secondary: "#C2B2C2", // Plum (Lavender)
+          tertiary: "#D8CDD8",  // Hover Plum
+          highlight: "rgba(194, 178, 194, 0.05)",
         },
       },
     },

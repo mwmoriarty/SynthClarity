@@ -5,13 +5,10 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.TagList(),
+  ],
   footer: Component.Footer({
-    links: {
-      "GitHub TTD Clarity": "https://github.com/mwmoriarty/TTDClarity",
-      "Discord OpenTTD": "https://discord.gg/openttd",
-      "Get in Touch": "/Contact",
-    },
   }),
 }
 
@@ -24,7 +21,6 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.ArticleTitle(),
     Component.ContentMeta(),
-    Component.TagList(),
   ],
   left: [
     Component.PageTitle(),
