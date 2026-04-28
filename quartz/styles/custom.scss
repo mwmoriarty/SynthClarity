@@ -23,14 +23,14 @@
   --head:'Merriweather','Georgia',serif;
   --para:'Open Sans','Verdana',sans-serif;
 }
-a,code,p {font-weight:400; line-height:1.45}
+a,code,p {font-weight:300; line-height:1.45}
 a {font-family:var(--mono);color:var(--plum-logo); &:hover {color:var(--plum-dark); text-decoration:underline solid}}
 code {font-family:var(--mech);font-size:0.9em; background:oklch(0.98 0.01 140); border:1px solid oklch(0.36 0.04 140 / 0.1)}
 body {font-weight:400; font-size:1.00rem; line-height:1.5; font-family:var(--para)}
-h1,h2,h3,h4 {font-weight:600; line-height:1.45; font-family:var(--head)}
-h1 {color:var(--green-lite); font-size:2.00rem; font-size:clamp(1.60rem,6vw,2.38rem)}
-h2 {color:var(--green-logo); font-size:1.68rem; font-size:clamp(1.40rem,5vw,2.00rem)}
-h3 {color:var(--green-dark); font-size:1.41rem; font-size:clamp(1.25rem,4vw,1.68rem)}
+h1,h2,h3,h4 {font-weight:500; line-height:1.45; font-family:var(--head)}
+h1 {color:var(--green-lite); font-size:1.75rem; font-size:clamp(1.75rem,6vw,2.00rem)}
+h2 {color:var(--green-logo); font-size:1.50rem; font-size:clamp(1.50rem,5vw,1.75rem)}
+h3 {color:var(--green-dark); font-size:1.25rem; font-size:clamp(1.25rem,4vw,1.50rem)}
  p {font-size:1.00rem}
 
 [aria-byte-theme="dark"] {
@@ -45,6 +45,7 @@ h3 {color:var(--green-dark); font-size:1.41rem; font-size:clamp(1.25rem,4vw,1.68
 }
 .page-title a {display: block; width:280px; height:70px; background-image:url("/static/logo.png"); background-size:contain; background-repeat:no-repeat; color:transparent; overflow:hidden}
 .after-body {isplay: flex; flex-direction: column; align-items: center; width: 100%}
-.tag-list {display: flex !important; flex-direction: row !important; flex-wrap: wrap; justify-content: center; gap: 0.5rem; list-style: none; padding: 0; margin: 1rem 0}
-.after-body hr, footer hr {display: none; margin: 0}
+.tag-list {display: flex !important; flex-direction: row !important; flex-wrap: wrap; justify-content: center; gap: 0.5rem; list-style: none; padding: 0; margin: 1rem 0; font-size:0.9rem}
+.after-body hr, footer hr {display: none !important; margin: 0 !important}
 .after-body .recent-notes, .after-body .backlinks {margin: 0; padding: 0; display: flex; flex-direction: row; justify-content: center; gap: 1.5rem}
+a.internal.tag-link{background-color:#ffffff00;border-radius:8px;margin:0 .1rem;padding:.2rem .4rem}
