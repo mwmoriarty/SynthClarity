@@ -35,7 +35,11 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      title: "Topics",
+      folderClickBehavior: "link",
+      folderDefaultState: "collapsed",
+      useSavedState: true,
   ],
   right: [
     Component.Graph(),
