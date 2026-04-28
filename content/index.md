@@ -36,6 +36,3 @@ This project is built **"brick by brick"** and hosted entirely on GitHub. We thr
 
 > [!INFO] **Site Status**
 > TTDClarity is currently being built in public. If a link is grayed out, the "brick" is still being laid. Check back often.
-
----
-[My Mission](My-Mission.md) | [About Me](About-Me.md) | [Contact Me](Contact-Me.md)
