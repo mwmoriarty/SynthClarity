@@ -36,11 +36,11 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer({
-      title: "Topics",
-      folderClickBehavior: "link",
+      title: "Silos", // You can name the sidebar title whatever you like
+      folderClickBehavior: "link", // This makes the folder name clickable!
       folderDefaultState: "collapsed",
       useSavedState: true,
-  ],
+    })
   right: [
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
