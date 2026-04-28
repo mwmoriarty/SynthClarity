@@ -13,4 +13,4 @@ The tracks are the veins of your empire, but bad signaling is a blood clot. This
 * **Station Throughput:** Designing RO-RO (Roll-In, Roll-Out) stations to prevent mainline jams.
 
 ## Featured Case Study
-* [The 4-Way Cloverleaf: A High-Traffic Junction Stress Test](link)
+* [Signal-Deadlocks](Signal-Deadlocks.md)

@@ -40,7 +40,7 @@ export const defaultContentPageLayout: PageLayout = {
       folderClickBehavior: "link",
       folderDefaultState: "collapsed",
       useSavedState: true,
-    })
+    })],
   right: [
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
