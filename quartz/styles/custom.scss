@@ -17,6 +17,36 @@
   --head:'Merriweather','Georgia',serif;
   --para:'Open Sans','Verdana',sans-serif;
 }
+
+:root {
+  /* Ensure these "Register" values are defined */
+  --page-width: 1200px;      /* Total width of the site */
+  --sidebar-width: 250px;    /* Width of the Left and Right columns */
+}
+
+.page {
+  /* Use the standard Quartz 3-column layout */
+  display: grid;
+  grid-template-columns: var(--sidebar-width) 1fr var(--sidebar-width);
+  column-gap: 2rem;
+  max-width: var(--page-width);
+  margin: 0 auto;
+}
+
+/* Constrain the center so it doesn't "leak" into the sidebar space */
+.center {
+  max-width: 100%;
+  width: auto;
+  overflow-wrap: break-word; /* Prevents long code/text from pushing the grid */
+}
+
+/* Ensure the right sidebar is visible on desktop */
+@media (min-width: 1200px) {
+  .right.sidebar {
+    display: flex !important;
+    visibility: visible;
+  }
+}
 a,code,p {font-weight:300; line-height:1.45}
 a {font-family:var(--mono);color:var(--plum-logo); &:hover {color:var(--plum-dark); text-decoration:underline solid}}
 code {font-family:var(--mech);font-size:0.9em; background:oklch(0.98 0.01 140); border:1px solid oklch(0.36 0.04 140 / 0.1)}
