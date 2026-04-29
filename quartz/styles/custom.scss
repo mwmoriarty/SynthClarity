@@ -17,6 +17,7 @@
   --head:'Merriweather','Georgia',serif;
   --para:'Open Sans','Verdana',sans-serif;
 }
+
 a,code,p {font-weight:300; line-height:1.45}
 a {font-family:var(--mono);color:var(--plum-logo); &:hover {color:var(--plum-dark); text-decoration:underline solid}}
 code {font-family:var(--mech);font-size:0.9em; background:oklch(0.98 0.01 140); border:1px solid oklch(0.36 0.04 140 / 0.1)}
@@ -28,11 +29,11 @@ h3 {color:var(--green-dark); font-size:1.25rem; font-size:clamp(1.25rem,4vw,1.50
  p {font-size:1.00rem}
 
 .page-title a {display: block; width:280px; height:70px; background-image:url("/static/logo.png"); background-size:contain; background-repeat:no-repeat; color:transparent; overflow:hidden}
-.after-body {isplay: flex; flex-direction: column; align-items: center; width: 100%}
+/* .after-body {isplay: flex; flex-direction: column; align-items: center; width: 100%}
 .tag-list {display: flex !important; flex-direction: row !important;justify-content: center; gap: 0.5rem; list-style: none; padding: 0; margin: 1rem 0; font-size:0.9rem}
 .after-body hr, footer hr {display: none !important; margin: 0 !important}
 .after-body .recent-notes, .after-body .backlinks {margin: 0; padding: 0; display: flex; flex-direction: row; justify-content: center; gap: 1.5rem}
-a.internal.tag-link{margin:0 .1rem;padding:.2rem .4rem}
+a.internal.tag-link{margin:0 .1rem;padding:.2rem .4rem} */
 
 /* --- SECTION 1: Master Palette & Typography --- */
 :root {

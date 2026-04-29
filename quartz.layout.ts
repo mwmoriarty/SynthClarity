@@ -37,5 +37,9 @@ export const defaultListPageLayout: PageLayout = {
     Component.Flex({ components: [{Component: Component.Search(), grow: true,}, { Component: Component.Darkmode()},],}),
     Component.Explorer(),
   ],
-  right: [],
+  right: [
+    Component.Graph(),
+    Component.DesktopOnly(Component.TableOfContents()),
+    Component.Backlinks(),
+  ],
 }
