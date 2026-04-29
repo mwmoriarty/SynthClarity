@@ -1,26 +1,27 @@
+
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
-// all pages shared components
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [Component.TagList()],
   footer: Component.Footer({ }),
 }
 
-// single page components
-export const defaultContentPageLayout: PageLayout = {
+const defaultComponents = {
   beforeBody: [
-    Component.Breadcrumbs(), 
+    Component.Breadcrumbs(),
     Component.ArticleTitle(),
     Component.ContentMeta(),
   ],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Flex({ components: [ { Component: Component.Search(), grow: true,}, { Component: Component.Darkmode()},],}),
-    Component.Explorer({ title: "Topics", folderClickBehavior: "link", folderDefaultState: "collapsed", useSavedState: true,})],
+    Component.Search(),
+    Component.Darkmode(),
+    Component.Explorer({title: "Topics", folderClickBehavior: "link", folderDefaultState: "collapsed", useSavedState: true}),
+  ],
   right: [
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
@@ -29,23 +30,5 @@ export const defaultContentPageLayout: PageLayout = {
   ],
 }
 
-// tags or folder page components
-export const defaultListPageLayout: PageLayout = {
-  beforeBody: [
-    Component.Breadcrumbs(), 
-    Component.ArticleTitle(), 
-    Component.ContentMeta()
-  ],
-  left: [
-    Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
-    Component.Flex({ components: [{Component: Component.Search(), grow: true,}, { Component: Component.Darkmode()},],}),
-    Component.Explorer({ title: "Topics", folderClickBehavior: "link", folderDefaultState: "collapsed", useSavedState: true,})],
-  ],
-  right: [
-    Component.Graph(),
-    Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
-    Component.TagList(),
-  ],
-}
+export const defaultContentPageLayout: PageLayout = defaultComponents
+export const defaultListPageLayout: PageLayout = defaultComponents
