@@ -26,24 +26,24 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#fefffe",      // Off-white "Paper" background
-          lightgray: "#d5ddd5",  // Borders
-          gray: "#9e9e9e",       // Graph Lines
-          darkgray: "#272d27",   // Body Text (Logo Green)
-          dark: "#738a6e",       // H1/Titles (Near-black Green)
-          secondary: "#D8CDD8",  // Links (Logo Plum)
-          tertiary: "#C2B2C2",   // Hover (Lighter Plum)
-          highlight: "rgba(100, 86, 100, 0.05)",
+          light: "#f8faf7",     // Ghost Lime
+          lightgray: "#eef1ed", // Light Gray
+          gray: "#90968e",      // Gray
+          darkgray: "#4e564d",  // Dark Gray
+          dark: "#404a32",      // Moss Munsell
+          secondary: "#633355", // Plum Pantone
+          tertiary: "#845376",  // Plum Light
+          highlight: "rgba(99, 51, 85, 0.1)",
         },
         darkMode: {
-          light: "#0d0f0d",     // Forest Green
-          lightgray: "#888888", // Borders
-          gray: "#a9a99a",      // Graph Lines
-          darkgray: "#c7c5c7",  // Body Text (Soft Sage)
-          dark: "#f5fff5",      // H1/Titles (Mint White)
-          secondary: "#C2B2C2", // Plum (Lavender)
-          tertiary: "#D8CDD8",  // Hover Plum
-          highlight: "rgba(194, 178, 194, 0.05)",
+          light: "#2a2a2a",     // Charcoal
+          lightgray: "#3f3f3f",
+          gray: "#808080",
+          darkgray: "#d9d9d9",  // Soft Gray
+          dark: "#f2f2f2",      // White Smoke
+          secondary: "#a4719a", // Lavender Plum
+          tertiary: "#c295b9",
+          highlight: "rgba(164, 113, 154, 0.15)",
         },
       },
     },

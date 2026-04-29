@@ -8,12 +8,6 @@
 @font-face {font-family:'Open Sans'; src:url('/static/fonts/OpenSans.woff2') format('woff2'); font-weight:normal; font-style:normal; font-display:swap}
 @font-face {font-family:'Ubuntu Mono'; src:url('/static/fonts/UbuntuMono.woff2') format('woff2'); font-weight:normal; font-style:normal; font-display:swap}
 :root {
-  --green-dark:oklch(0.35 0.06 145);
-  --green-logo:oklch(0.45 0.07 145);
-  --green-lite:oklch(0.55 0.08 145);
-  --plum-lite:oklch(0.55 0.08 325);
-  --plum-logo:oklch(0.45 0.07 325);
-  --plum-dark:oklch(0.35 0.06 325);
   --mono:'Argon','Inter',sans-serif;
   --mech:'Krypton','Consolas',monospace;
   --sans:'Neon','Inter',sans-serif;
@@ -49,3 +43,65 @@ h3 {color:var(--green-dark); font-size:1.25rem; font-size:clamp(1.25rem,4vw,1.50
 .after-body hr, footer hr {display: none !important; margin: 0 !important}
 .after-body .recent-notes, .after-body .backlinks {margin: 0; padding: 0; display: flex; flex-direction: row; justify-content: center; gap: 1.5rem}
 a.internal.tag-link{background-color:#ffffff00;border-radius:8px;margin:0 .1rem;padding:.2rem .4rem}
+
+/* --- SECTION 1: Master Palette & Typography --- */
+:root {
+  /* Brand Constants */
+  --plum-pantone: oklch(0.38 0.09 325);    /* #633355 - Action/Links */
+  --moss-munsell: oklch(0.38 0.09 145);    /* #404a32 - Structure/Headers */
+  --ghost-lime:   oklch(0.98 0.01 145);    /* #f8faf7 - Professional Paper */
+
+  /* Light Mode "Registers" */
+  --light:     var(--ghost-lime);
+  --lightgray: oklch(from var(--ghost-lime) 0.90 c h);
+  --gray:      oklch(0.60 0.02 145);
+  --darkgray:  oklch(0.35 0.03 145);       /* Deep Slate Body Text */
+  --dark:      var(--moss-munsell);        /* Headers */
+  --secondary: var(--plum-pantone);       /* Links */
+  --tertiary:  oklch(from var(--plum-pantone) 0.50 c h); /* Plum Hover */
+}
+
+/* Dark Mode "Registers" (Neutral Anchor) */
+[data-theme="dark"] {
+  --light:     oklch(0.18 0.00 0);          /* Charcoal Background */
+  --lightgray: oklch(0.25 0.00 0);
+  --gray:      oklch(0.50 0.00 0);
+  --darkgray:  oklch(0.85 0.00 0);          /* Soft Gray Text */
+  --dark:      oklch(0.95 0.00 0);          /* White-Smoke Titles */
+  --secondary: oklch(0.65 0.10 325);       /* Lavender-Plum Pop */
+  --tertiary:  oklch(0.75 0.10 325);
+}
+
+/* --- SECTION 2: Typography Assignments --- */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Merriweather", serif;
+  color: var(--dark);
+  font-weight: 700;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: var(--darkgray);
+}
+
+code, pre {
+  font-family: "Krypton", monospace !important;
+  font-size: 0.9em;
+}
+
+/* For your "Colophon" or stand-out technical text */
+.highlight-text {
+  font-family: "Radon", monospace;
+  color: var(--secondary);
+}
+
+/* Ensure TagList is horizontal above footer */
+.after-body .tag-list {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.8rem;
+  list-style: none;
+  padding: 0;
+}
