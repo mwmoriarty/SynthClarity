@@ -59,7 +59,7 @@ h3 {color:var(--green-dark); font-size:1.25rem; font-size:clamp(1.25rem,4vw,1.50
     --darkgray:  oklch(0.35 0.03 145);       /* Deep Slate Body Text */
     --dark:      var(--moss-munsell);        /* Headers */
     --secondary: var(--plum-pantone);        /* Links */
-    --tertiary:  oklch(from var(--plum-pantone) 0.50 c h); /* Plum Hover */
+    --tertiary:  var(--terciary);            /* Plum Hover */
   }
 
   /* Dark Mode "Registers" */
