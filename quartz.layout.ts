@@ -5,7 +5,7 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [Component.TagList(),],
+  afterBody: [],
   footer: Component.Footer({ }),
 }
 
@@ -25,6 +25,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
+    Component.TagList(),
   ],
 }
 
@@ -41,5 +42,6 @@ export const defaultListPageLayout: PageLayout = {
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
+    Component.TagList(),
   ],
 }
