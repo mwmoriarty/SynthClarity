@@ -1,49 +1,55 @@
+
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 
 /**
  * Quartz 4 Configuration
+ *
  * See https://quartz.jzhao.xyz/configuration for more information.
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "TTD Clarity",
+    pageTitle: "Quartz 4",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {provider: "plausible",},
+    analytics: {
+      provider: "plausible",
+    },
     locale: "en-US",
-    baseUrl: "www.ttdclarity.com",
+    baseUrl: "quartz.jzhao.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
-      fontOrigin: "local",
-      cdnCaching: false,
+      fontOrigin: "googleFonts",
+      cdnCaching: true,
       typography: {
-        header: "Merriweather",
-        body: "Open Sans",
-        code: "Krypton",
+        header: "Schibsted Grotesk",
+        body: "Source Sans Pro",
+        code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
-          light: "#f8faf7",     // Ghost Lime
-          lightgray: "#eef1ed", // Light Gray
-          gray: "#90968e",      // Gray
-          darkgray: "#4e564d",  // Dark Gray
-          dark: "#404a32",      // Moss Munsell
-          secondary: "#633355", // Plum Pantone
-          tertiary: "#845376",  // Plum Light
-          highlight: "rgba(99, 51, 85, 0.1)",
+          light: "#faf8f8",
+          lightgray: "#e5e5e5",
+          gray: "#b8b8b8",
+          darkgray: "#4e4e4e",
+          dark: "#2b2b2b",
+          secondary: "#284b63",
+          tertiary: "#84a59d",
+          highlight: "rgba(143, 159, 169, 0.15)",
+          textHighlight: "#fff23688",
         },
         darkMode: {
-          light: "#2a2a2a",     // Charcoal
-          lightgray: "#3f3f3f",
-          gray: "#808080",
-          darkgray: "#d9d9d9",  // Soft Gray
-          dark: "#f2f2f2",      // White Smoke
-          secondary: "#a4719a", // Lavender Plum
-          tertiary: "#c295b9",
-          highlight: "rgba(164, 113, 154, 0.15)",
+          light: "#161618",
+          lightgray: "#393639",
+          gray: "#646464",
+          darkgray: "#d4d4d4",
+          dark: "#ebebec",
+          secondary: "#7b97aa",
+          tertiary: "#84a59d",
+          highlight: "rgba(143, 159, 169, 0.15)",
+          textHighlight: "#b3aa0288",
         },
       },
     },
@@ -83,7 +89,8 @@ const config: QuartzConfig = {
       Plugin.Static(),
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
-      // Plugin.CustomOgImages(),
+      // Comment out CustomOgImages to speed up build time
+      Plugin.CustomOgImages(),
     ],
   },
 }
