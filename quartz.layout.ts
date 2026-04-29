@@ -12,15 +12,15 @@ export const sharedPageComponents: SharedLayout = {
 // single page components
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    Component.ConditionalRender({ component: Component.Breadcrumbs(), condition: (page) => page.fileData.slug !== "index", }),
+    Component.Breadcrumbs(), 
     Component.ArticleTitle(),
     Component.ContentMeta(),
   ],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Flex({ components: [ { Component: Component.Search(), grow: true,}, { Component: Component.Darkmode() }, { Component: Component.ReaderMode() },],}),
-    Component.Explorer({ title: "Topics", folderClickBehavior: "link", folderDefaultState: "collapsed", useSavedState: true, })],
+    Component.Flex({ components: [ { Component: Component.Search(), grow: true,}, { Component: Component.Darkmode()},],}),
+    Component.Explorer({ title: "Topics", folderClickBehavior: "link", folderDefaultState: "collapsed", useSavedState: true,})],
   right: [
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
@@ -31,12 +31,16 @@ export const defaultContentPageLayout: PageLayout = {
 
 // tags or folder page components
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
+  beforeBody: [
+    Component.Breadcrumbs(), 
+    Component.ArticleTitle(), 
+    Component.ContentMeta()
+  ],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({ components: [{Component: Component.Search(), grow: true,}, { Component: Component.Darkmode()},],}),
-    Component.Explorer(),
+    Component.Explorer({ title: "Topics", folderClickBehavior: "link", folderDefaultState: "collapsed", useSavedState: true,})],
   ],
   right: [
     Component.Graph(),
