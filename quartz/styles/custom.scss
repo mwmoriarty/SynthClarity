@@ -37,25 +37,39 @@ h3 {color:var(--green-dark); font-size:1.25rem; font-size:clamp(1.25rem,4vw,1.50
   --moss-munsell: oklch(0.38 0.09 145);    /* #404a32 - Structure/Headers */
   --ghost-lime:   oklch(0.98 0.01 145);    /* #f8faf7 - Professional Paper */
 
+  --light: #f8faf7;
+  --lightgray: #eef1ed;
+  --gray: #90968e;
+  --darkgray: #4e564d;
+  --dark: #404a32;
+  --secondary: #633355;
+  --tertiary: #845376;
+  --highlight: #6333551a;
+  --textHighlight: undefined;
+  --titleFont: "Merriweather", serif;
+  --headerFont: "Merriweather", serif;
+  --bodyFont: "Open Sans", sans-serif;
+  --codeFont: "Krypton", monospace;
+    
   /* Light Mode "Registers" */
-[data-theme="lite"] {
-  --light:     var(--ghost-lime);
-  --lightgray: oklch(from var(--ghost-lime) 0.90 c h);
-  --gray:      oklch(0.60 0.02 145);
-  --darkgray:  oklch(0.35 0.03 145);       /* Deep Slate Body Text */
-  --dark:      var(--moss-munsell);        /* Headers */
-  --secondary: var(--plum-pantone);        /* Links */
-  --tertiary:  oklch(from var(--plum-pantone) 0.50 c h); /* Plum Hover */
-}
+  [data-theme="lite"] {
+    --light:     var(--ghost-lime);
+    --lightgray: oklch(from var(--ghost-lime) 0.90 c h);
+    --gray:      oklch(0.60 0.02 145);
+    --darkgray:  oklch(0.35 0.03 145);       /* Deep Slate Body Text */
+    --dark:      var(--moss-munsell);        /* Headers */
+    --secondary: var(--plum-pantone);        /* Links */
+    --tertiary:  oklch(from var(--plum-pantone) 0.50 c h); /* Plum Hover */
+  }
 
-/* Dark Mode "Registers" */
-[data-theme="dark"] {
-  --light:     oklch(0.18 0.00 0);         /* Charcoal Background */
-  --lightgray: oklch(0.25 0.00 0);
-  --gray:      oklch(0.50 0.00 0);
-  --darkgray:  oklch(0.85 0.00 0);         /* Soft Gray Text */
-  --dark:      oklch(0.95 0.00 0);         /* White-Smoke Titles */
-  --secondary: oklch(0.65 0.10 325);       /* Lavender-Plum Pop */
-  --tertiary:  oklch(0.75 0.10 325);
-}
+  /* Dark Mode "Registers" */
+  [data-theme="dark"] {
+    --light:     oklch(0.18 0.00 0);         /* Charcoal Background */
+    --lightgray: oklch(0.25 0.00 0);
+    --gray:      oklch(0.50 0.00 0);
+    --darkgray:  oklch(0.85 0.00 0);         /* Soft Gray Text */
+    --dark:      oklch(0.95 0.00 0);         /* White-Smoke Titles */
+    --secondary: oklch(0.65 0.10 325);       /* Lavender-Plum Pop */
+    --tertiary:  oklch(0.75 0.10 325);
+  }
 }
