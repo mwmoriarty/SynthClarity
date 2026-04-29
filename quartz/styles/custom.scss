@@ -18,7 +18,6 @@
   --para:'Open Sans','Verdana',sans-serif;
 }
 
-
 a,code,p {font-weight:300; line-height:1.45}
 a {font-family:var(--mono);color:var(--plum-logo); &:hover {color:var(--plum-dark); text-decoration:underline solid}}
 code {font-family:var(--mech);font-size:0.9em; background:oklch(0.98 0.01 140); border:1px solid oklch(0.36 0.04 140 / 0.1)}
