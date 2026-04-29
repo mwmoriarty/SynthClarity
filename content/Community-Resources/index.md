@@ -1,6 +1,9 @@
 ---
 title: Community Resources
 description: Connecting you to the collective knowledge of the OpenTTD community.
+tags:
+  - community
+  - resources
 ---
 
 # Community Resources

@@ -1,6 +1,8 @@
 ---
 title: Modding & NewGRFs
 description: Navigating the complexity of industry mods and train sets.
+tags:
+  - logistics
 ---
 
 # Modding & NewGRFs
