@@ -32,7 +32,7 @@ This project is built **"brick by brick"** and hosted entirely on GitHub. We thr
 
 * **Found a mistake?** Submit a Pull Request.
 * **Have a suggestion?** Open an Issue.
-* **Want to contribute?** See our [[Contact]] or [[About]] pages for how to get involved.
+* **Want to contribute?** See our [[Contact]] or [[AboutMe]] pages for how to get involved.
 
 > [!INFO] **Site Status**
 > TTDClarity is currently being built in public. If a link is grayed out, the "brick" is still being laid. Check back often.

@@ -14,10 +14,7 @@ export default ((opts?: Options) => {
 return (
   <footer class={`${displayClass ?? ""}`}>
     <p>
-      © {year} <a href="https://github.com/mwmoriarty/TTDClarity">TTD Clarity</a>&nbsp;|&nbsp;
-      <a href="https://discord.gg/openttd">Discord</a>&nbsp;|&nbsp; 
-      <a href="https://www.hostinger.com?REFERRALCODE=RWJMWMORI1KL">Hostinger</a>&nbsp;|&nbsp;
-      <a href="/Contact">Contact</a>
+      Copyright &copy; {year} <a href="https://github.com/mwmoriarty/TTDClarity">TTD Clarity</a>&nbsp;|&nbsp;Built with Obsidian &amp; Quartz 4&nbsp;|&nbsp;Hosted using GitHub &amp; <a href="https://www.hostinger.com?REFERRALCODE=RWJMWMORI1KL">Hostinger</a>
     </p>
     <ul>
       {Object.entries(links).map(([text, link]) => (
