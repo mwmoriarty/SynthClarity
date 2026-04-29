@@ -28,7 +28,7 @@ h2 {color:var(--green-logo); font-size:1.50rem; font-size:clamp(1.50rem,5vw,1.75
 h3 {color:var(--green-dark); font-size:1.25rem; font-size:clamp(1.25rem,4vw,1.50rem)}
  p {font-size:1.00rem}
 
-.page-title a {display: block; text-align:left; width:280px; height:70px; background-image:url("/static/logo.png"); background-size:contain; background-repeat:no-repeat; color:transparent; overflow:hidden; padding:0 0 1rem 0}
+.page-title a {display: block; text-align:left; width:280px; height:70px; background-image:url("/static/logo.png"); background-size:contain; background-repeat:no-repeat; color:transparent; overflow:hidden; padding:-1rem 0 1rem 0}
 
 /* --- SECTION 1: Master Palette & Typography --- */
 :root {
