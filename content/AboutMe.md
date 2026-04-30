@@ -1,5 +1,8 @@
 ---
 title: About
+tags:
+  - About
+  - Author
 ---
 
 Hi, I’m Michael!

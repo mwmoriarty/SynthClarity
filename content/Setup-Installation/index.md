@@ -1,6 +1,9 @@
 ---
 title: Setup & Installation
 description: Getting OpenTTD running perfectly on modern hardware.
+tags:
+  - setup
+  - installation
 ---
 
 # Setup & Installation

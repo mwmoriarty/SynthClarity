@@ -1,7 +1,10 @@
 ---
 title: Signaling & Networks
 description: Eliminating deadlocks and optimizing track throughput.
-tags: [signals, netorks, path-finding]
+tags:
+  - signals
+  - path-finding
+  - networks
 ---
 
 # Signaling & Networks

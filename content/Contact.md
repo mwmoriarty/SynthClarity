@@ -1,5 +1,8 @@
 ---
 title: Contact
+tags:
+  - suggestion
+  - contact
 ---
 
 ### Get in Touch

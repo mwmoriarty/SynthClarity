@@ -1,6 +1,9 @@
 ---
 title: Mechanics & Strategy
 description: Understanding the hidden math behind a profitable company.
+tags:
+  - mechanics
+  - strategy
 ---
 
 # Mechanics & Strategy

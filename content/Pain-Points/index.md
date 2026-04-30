@@ -1,6 +1,8 @@
 ---
 title: Pain Points
-tags: [silo, troubleshooting]
+tags:
+  - troubleshooting
+  - obtacles
 ---
 
 # Pain Points & Troubleshooting

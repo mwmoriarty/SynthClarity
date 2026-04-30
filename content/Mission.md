@@ -1,5 +1,8 @@
 ---
 title: Mission
+tags:
+  - mission
+  - purpose
 ---
 
 Helping OpenTTD enthusiasts navigate through the 'Matrix' of information pertaining to the game is my mission.
