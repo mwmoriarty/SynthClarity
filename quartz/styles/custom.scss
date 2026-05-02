@@ -1,12 +1,90 @@
 @use "./base.scss";
 
-@font-face {font-family:'Merriweather'; src:url('/static/fonts/Merriweather.woff2') format('woff2')}
-@font-face {font-family:'Open Sans'; src:url('/static/fonts/OpenSans.woff2') format('woff2')}
-@font-face {font-family:'Krypton'; src:url('/static/fonts/Krypton.woff2') format('woff2')}
+@font-face {font-family:'Argon'; src:url('/static/fonts/Argon.woff2') format('woff2'); font-weight:400; font-style:normal; font-display:swap}
+@font-face {font-family:'Krypton'; src:url('/static/fonts/Krypton.woff2') format('woff2'); font-weight:400; font-style:normal; font-display:swap}
+@font-face {font-family:'Neon'; src:url('/static/fonts/Neon.woff2') format('woff2'); font-weight:400; font-style:normal; font-display:swap}
+@font-face {font-family:'Radon'; src:url('/static/fonts/Radon.woff2') format('woff2'); font-weight:400; font-style:normal; font-display:swap}
+@font-face {font-family:'Xenon'; src:url('/static/fonts/Xenon.woff2') format('woff2'); font-weight:600; font-style:normal; font-display:swap}
+@font-face {font-family:'Merriweather'; src:url('/static/fonts/Merriweather.woff2') format('woff2'); font-weight:600; font-style:normal; font-display:swap}
+@font-face {font-family:'OpenSans'; src:url('/static/fonts/OpenSans.woff2') format('woff2'); font-weight:400; font-style:normal; font-display:swap}
+@font-face {font-family:'UbuntuMono'; src:url('/static/fonts/UbuntuMono.woff2') format('woff2'); font-weight:400; font-style:normal; font-display:swap}
 
-body {font-family:"Open Sans", sans-serif; line-height:1.65}
-h1, h2, h3, h4, h5, h6 {font-family:"Merriweather", serif; font-weight:700}
-code, pre {font-family:"Krypton", monospace !important}
-article {max-width:75ch; margin:0 auto 0 0}
-ul.tags {flex-wrap:wrap !important;gap:0.4rem;margin:1rem 0;padding-left:0;list-style:none;display:flex}
-.tags {flex-wrap:nowrap !important;gap:0.4rem;margin:1rem 0;padding-left:0;list-style:none;display:flex}
+/* Fonts */
+:root {
+      --mono:'Argon','Inter',sans-serif;
+      --mech:'Krypton','Consolas',monospace;
+      --sans:'Neon','Inter',sans-serif;
+      --hand:'Radon','Comic Sans MS',cursive;
+      --serf:'Xenon','Georgia',serif;
+      --link:'UbuntuMono','Courier New',monospace;
+      --head:'Merriweather','Georgia',serif;
+      --para:'OpenSans','Verdana',sans-serif;
+ --titleFont:'Merriweather','Georgia',serif;
+--headerFont:'Merriweather','Georgia',serif;
+  --bodyFont:'OpenSans','Verdana',sans-serif;
+  --codeFont:'Krypton','Consolas',monospace;
+}
+/* Colors */
+:root {
+        --light: oklch(0.95 0.005 195); /* #ebefef */
+    --lightgray: oklch(0.45 0.010 195); /* #4f5757 */
+         --gray: oklch(0.35 0.015 195); /* #323d3d */
+     --darkgray: oklch(0.25 0.010 195); /* #1c2323 */ 
+         --dark: oklch(0.15 0.005 195); /* #090c0c */ 
+    --secondary: oklch(0.45 0.080 325); /* #57325a */
+     --tertiary: oklch(0.55 0.090 325); /* #774b79 */
+   --quaternary: oklch(0.65 0.100 325); /* #98659b */
+    --highlight: oklch(0.68 0.020 325 / 5%); /* rgba(255, 241, 0, 0.05) */
+--textHighlight: oklch(0.94 0.200 105 / 5%); /* #fff10040 */
+}
+[data-theme="dark"] {
+        --light: oklch(0.15 0.005 200); /* #090c0c */
+    --lightgray: oklch(0.25 0.010 200); /* #1c2323 */ 
+         --gray: oklch(0.35 0.015 200); /* #323d3e */
+     --darkgray: oklch(0.45 0.020 200); /* #49595a */
+         --dark: oklch(0.95 0.025 200); /* #617677 */
+    --secondary: oklch(0.55 0.100 15); /* #a3575f */
+     --tertiary: oklch(0.45 0.110 15); /* #873741 */
+    --highlight: oklch(0.68 0.020 15 / 5%);  /* rgba(255, 241, 0, 0.25) */
+--textHighlight: oklch(0.94 0.180 105 / 5%); /* #fef14540 */
+}
+/* 
+      colors: {
+        lightMode: {
+          light: "#ebefef",
+          lightgray: "#4b5a4b",
+          gray: "#2d402e",
+          darkgray: "#1c2323",
+          dark: "#090c0c",
+          secondary: "#774b79",
+          tertiary: "",
+          highlight: "rgba(255, 241, 0, 0.05)",
+          textHighlight: "#fff10040",
+        },
+        darkMode: {
+          light: "#090c0c",
+          lightgray: "#1c2323",
+          gray: "#323d3",
+          darkgray: "#49595a",
+          dark: "#617677",
+          secondary: "#a3575f",
+          tertiary: "#6e0b24",
+          highlight: "rgba(255, 241, 0, 0.05)",
+          textHighlight: "#fef14540",
+        },
+*/
+/* Typography */
+a,code,p {font-weight:300; line-height:1.45}
+a {font-family:var(--mono);color:var(--plum-logo); &:hover {color:var(--plum-dark); text-decoration:underline solid}}
+code {font-family:var(--mech);font-size:0.9em; background:oklch(0.98 0.01 140); border:1px solid oklch(0.36 0.04 140 / 0.1)}
+body {font-weight:400; font-size:1.00rem; line-height:1.6; font-family:var(--para)}
+h1,h2,h3,h4 {font-weight:500; line-height:1.45; font-family:var(--head)}
+h1 {color:var(--secondary); font-size:1.75rem; font-size:clamp(1.75rem,6vw,2.00rem)}
+h2 {color:var(--terciary); font-size:1.50rem; font-size:clamp(1.50rem,5vw,1.75rem)}
+h3 {color:var(--quaternary); font-size:1.25rem; font-size:clamp(1.25rem,4vw,1.50rem)}
+ p {font-size:1.00rem}
+
+/* Layout */
+.center {max-width: 65ch; padding:0 1rem; margin: 0}
+.page-list {max-width: 65ch}
+

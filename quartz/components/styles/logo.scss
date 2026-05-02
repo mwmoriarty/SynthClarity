@@ -1,0 +1,15 @@
+.logo-container {
+  display: flex;
+  justify-content: left;
+  margin: -.85em 0 -0.95rem 0; padding: 0;
+
+  .logo-image {
+    max-width: 390px;
+    height: 80px;
+    transition: transform 0.2s ease;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}

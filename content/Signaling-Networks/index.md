@@ -3,7 +3,6 @@ title: Signaling & Networks
 description: Eliminating deadlocks and optimizing track throughput.
 tags:
   - signals
-  - path-finding
   - networks
 ---
 

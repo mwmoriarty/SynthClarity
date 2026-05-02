@@ -7,9 +7,7 @@ html {
   text-size-adjust: none;
   overflow-x: hidden;
   width: 100vw;
-  @media all and ($mobile) {
-    scroll-padding-top: 4rem;
-  }
+  @media all and ($mobile) {scroll-padding-top: 4rem}
 }
 body {
   margin: 0;
@@ -23,24 +21,15 @@ body {
   padding: 0 0.1rem;
   border-radius: 5px;
 }
-::selection {
-  background: color-mix(in srgb, var(--tertiary) 60%, rgba(255, 255, 255, 0));
-  color: var(--darkgray);
-}
+::selection {background: color-mix(in srgb, var(--tertiary) 60%, rgba(255, 255, 255, 0));color: var(--darkgray)}
 p,ul,text,a,tr,td,li,ol,ul,.katex,.math,.typst-doc,g[class~="typst-text"] {
   color: var(--darkgray);
   fill: var(--darkgray);
   overflow-wrap: break-word;
   text-wrap: pretty;
 }
-path[class~="typst-shape"] {
-  stroke: var(--darkgray);
-}
-.math {
-  &.math-display {
-    text-align: center;
-  }
-}
+path[class~="typst-shape"] {stroke: var(--darkgray)}
+.math { &.math-display {text-align: center}}
 article {
   > mjx-container.MathJax,  blockquote > div > mjx-container.MathJax {
     display: flex;
@@ -49,13 +38,9 @@ article {
       margin-right: auto;
     }
   }
-  blockquote > div > mjx-container.MathJax > svg {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
+  blockquote > div > mjx-container.MathJax > svg {margin-top: 1rem;margin-bottom: 1rem}
 }
-strong {font-weight: $semiBoldWeight;
-}
+strong {font-weight: $semiBoldWeight}
 a {
   font-weight: $semiBoldWeight;
   text-decoration: none;
@@ -92,8 +77,7 @@ a {
     }
   }
 }
-.flex-component {display: flex;
-}
+.flex-component {display: flex}
 .desktop-only {
   display: initial;
   &.flex-component {display: flex;
@@ -354,9 +338,7 @@ th {
 td {padding: 0.2rem 0.7rem}
 tr {
   border-bottom: 1px solid var(--lightgray);
-  &:last-child {
-    border-bottom: none;
-  }
+  &:last-child {border-bottom: none}
 }
 img {
   max-width: 100%;

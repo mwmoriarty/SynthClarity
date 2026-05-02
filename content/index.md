@@ -1,6 +1,7 @@
 ---
 title: Digital Museum & Strategy Guide
 layout: page
+tags: [home]
 ---
 
 # Welcome to TTD Clarity

@@ -2,9 +2,8 @@
 title: Signal Deadlocks
 date: Apr 25, 20262
 tags:
-  - logistics
-  - signaling
-  - networks
+  - signal
+  - deadkock
 ---
 
 One of the most frustrating “pain points” for any player—new or veteran—is the discovery of a gridlocked network. A single misplaced signal can halt an entire economic engine.

@@ -1,7 +1,6 @@
 ---
 title: Contact
 tags:
-  - suggestion
   - contact
 ---
 
