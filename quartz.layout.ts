@@ -18,8 +18,12 @@ export const defaultContentPageLayout: PageLayout = {
 
   ],
   left: [
-    Component.DesktopOnly(Component.Logo()),
-    Component.Flex({ components: [{Component: Component.Search(), grow: true,}, {Component: Component.Darkmode()},],}),
+    Component.Logo(),
+    Component.Flex({ components: [
+      {Component: Component.Search(), grow: true},
+      {Component: Component.Darkmode()},
+      {Component: Component.ReaderMode()},
+    ]}),
     Component.Explorer(),
   ],
   right: [
@@ -39,8 +43,12 @@ export const defaultListPageLayout: PageLayout = {
 
   ],
   left: [
-    Component.DesktopOnly(Component.Logo()),
-    Component.Flex({ components: [{Component: Component.Search(), grow: true,}, {Component: Component.Darkmode()},],}),
+    Component.Logo(),
+    Component.Flex({ components: [
+      {Component: Component.Search(), grow: true},
+      {Component: Component.Darkmode()},
+      {Component: Component.ReaderMode()},
+    ]}),
     Component.Explorer(),
   ],
   right: [
