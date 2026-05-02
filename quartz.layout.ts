@@ -15,20 +15,21 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ConditionalRender({component: Component.Breadcrumbs(), condition: (page) => page.fileData.slug !== "index",}),
     Component.ArticleTitle(),
     Component.ContentMeta(),
-
   ],
   left: [
     Component.Logo(),
-    Component.Flex({ components: [
-      {Component: Component.Search(), grow: true},
-      {Component: Component.Darkmode()},
-      {Component: Component.ReaderMode()},
-    ]}),
+    Component.Flex({
+      components: [
+        { Component: Component.Search(), grow: true },
+        { Component: Component.Darkmode() },
+        { Component: Component.ReaderMode() },
+      ],
+    }),
     Component.Explorer(),
   ],
   right: [
     Component.Graph(),
-    Component.DesktopOnly(Component.TableOfContents()),
+    Component.DesktopOnly( Component.TableOfContents() ),
     Component.Backlinks(),
     Component.TagList(),
   ],
@@ -40,20 +41,21 @@ export const defaultListPageLayout: PageLayout = {
     Component.ConditionalRender({component: Component.Breadcrumbs(), condition: (page) => page.fileData.slug !== "index",}),
     Component.ArticleTitle(),
     Component.ContentMeta(),
-
   ],
   left: [
     Component.Logo(),
-    Component.Flex({ components: [
-      {Component: Component.Search(), grow: true},
-      {Component: Component.Darkmode()},
-      {Component: Component.ReaderMode()},
-    ]}),
+    Component.Flex({
+      components: [
+        { Component: Component.Search(), grow: true },
+        { Component: Component.Darkmode() },
+        { Component: Component.ReaderMode() },
+      ],
+    }),
     Component.Explorer(),
   ],
   right: [
     Component.Graph(),
-    Component.DesktopOnly(Component.TableOfContents()),
+    Component.DesktopOnly( Component.TableOfContents() ),
     Component.Backlinks(),
     Component.TagList(),
   ],
