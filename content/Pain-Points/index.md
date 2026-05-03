@@ -1,29 +1,36 @@
 ---
 title: Pain Points
-tags:
-  - troubleshooting
-  - obtacles
+description: This is our main hub; a categorized list of "I have a problem with..." links pointing to case studies and other topics.
+tags: [troubleshooting, obstacles]
 ---
 
 # Pain Points & Troubleshooting
-
-This section is dedicated to resolving the specific friction points that lead to "network paralysis" or economic collapse in OpenTTD. Every entry here is designed to be a quick-fix guide for enthusiasts.
+This collection of articles is dedicated to resolving the specific friction points that lead to "network paralysis" or economic collapse in OpenTTD. 
 
 ## Signaling & Traffic Flow
-* **[[Signal-Deadlocks|Signal Deadlocks]]**: How to identify and fix trains facing each other.
-* **Junction Saturation**: Techniques for preventing "The Great Clog" at main interchanges.
-* **Path Signal Transitions**: Moving from legacy Block Signals to modern Path Logic.
+* [[path-signal-tips | Path Signal Transitions: Moving from legacy Block Signals to modern Path Logic]]
+* [[signal-deadlocks-tips | Signal Deadlocks: How to identify and fix trains facing each other]]
+* [[junction-saturation-tips | Junction Saturation: Preventing "The Great Clog" at main interchanges]]
 
 ## Economic Friction
-* **The "No Profit" Trap**: Why your long-distance coal line is losing money.
-* **Subsidy Management**: How to prioritize subsidized routes without breaking your existing network.
-* **Inflation Management**: Tips for senior players dealing with late-game price spikes.
+* [[no-profit-trap | The "No Profit" Trap: Why your coal line is losing money]]
+* [[inflation-management-tips | Inflation Management: Dealing with late-game price spikes]]
+* [[subsidy-management-tips | Subsidy Management: How to prioritize subsidized routes]]
 
 ## Cargo & Industry
-* **Station Rating Drop**: How to keep cargo waiting at the docks from vanishing.
-* **Primary Industry Closure**: Strategies for when a crucial FIRS or WR Extra industry shuts down.
+* [[station-rating-tips | Station Rating Drop: How to keep cargo from vanishing at the docks]]
+* [[industry-closure-dilema | Primary Industry Closure: Strategies for FIRS or WR Extra shutdowns]]
+
+## Categories of Frustration
+* [[dealing-with-desyncs | Multiplayer 'Desyncs': Dealing with "Out of Sync" errors]]
+* [[pathfinding-failures | "Train is Lost": Why your path-finding has failed and how to fix it]]
+* [[ui-and-control-quirks | UI & Control Quirks: Taming the interface for a smoother experience]]
+
+## Case Study Deliveries
+* [[train-is-lost-troubleshooting | The 'Train 4 is Lost' Mystery: Solving Pathfinding in Complex Hubs]]
+
 ---
 > [!TIP] **Collaborate**
 > If you have a specific "pain point" not listed here, please [Open an Issue](https://github.com/mwmoriarty/TTDClarity/issues) on GitHub.
 ---
-[[content/index|← Back to Home]]
+[[index | ← Back to Home]]

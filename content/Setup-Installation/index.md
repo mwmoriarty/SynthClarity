@@ -1,19 +1,24 @@
 ---
 title: Setup & Installation
-description: Getting OpenTTD running perfectly on modern hardware.
-tags:
-  - setup
-  - installation
+description: A "Quick Start" checklist; links to modern installers; common resolution/UI scaling fixes.
+tags: [setup, installation]
 ---
 
 # Setup & Installation
 
-The biggest hurdle for new or returning players is often getting the game to look and feel right on modern high-resolution displays or specific operating systems.
+The biggest hurdle for new or returning players is getting the game to look and feel right on modern high-resolution displays or specific operating systems.
+
+## Getting Started
+* [[ottd-install-guide | Quick Start: Finding the right installer for your OS]]
+* [[essential-graphics-sound | Beyond 1994: Installing OpenGFX, OpenSFX, and OpenMSX]]
 
 ## Common Pain Points
-* **UI Scaling:** "The menus are too small to read on my 4K monitor."
-* **Graphics & Sound:** "Why does the game look like a 1994 DOS app?" (Installing OpenGFX/SFX).
-* **Linux/Flatpak:** "How do I manage my save files on a Linux desktop?"
+* [[ui-scaling-fix | UI Scaling: Fixing tiny menus on 4K & High-DPI monitors]]
+* [[linux-flatpak-saves | Linux & Flatpak: Managing save files and directories on Debian]]
+* [[grf-install-basics | NewGRF 101: How to install and activate your first mods]]
 
 ## Featured Case Study
-* [From Pixelated to Professional: My 4K Configuration Guide](link)
+* [[my-4k-config-guide | From Pixelated to Professional: My 4K Configuration Guide]]
+
+---
+[[index | ← Back to Home]]

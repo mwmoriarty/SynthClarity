@@ -1,9 +1,7 @@
 ---
 title: Mechanics & Strategy
-description: Understanding the hidden math behind a profitable company.
-tags:
-  - mechanics
-  - strategy
+description: Profitability basics; a breakdown of CargoDist; links to your "Bankrupt Save" case studies. Understanding the hidden math behind a profitable company.
+tags: [mechanics, strategy]
 ---
 
 # Mechanics & Strategy
@@ -16,4 +14,5 @@ It is easy to move cargo; it is difficult to move it efficiently. This section b
 * **CargoDist:** Dealing with passengers who refuse to go where you want them to.
 
 ## Featured Case Study
-* [Saving a Bankrupt Save: Identifying the Leak in the Logistics](link)
+* [[Saving a Bankrupt Save: Identifying the Leak in the Logistics(link)]]
+* [[Profit Calculation Case Study(/Mechaniss-Strategy/profit-calculation-case-study.md)]]
