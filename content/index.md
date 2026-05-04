@@ -12,18 +12,18 @@ Our goal is simple: **Clear the path from confusion to mastery.**
 ## Navigate the Knowledge Base
 Choose your current objective to dive into our structured content silos:
 
-### [pain-points | Pain Points & Troubleshooting)
+### [[pain-points/index | Pain Points]]
 *Stuck? Start here.* Targeted solutions for common friction points: signal deadlocks, station bottlenecks, and "why isn't this train moving?"
 
-### [mechanics-strategy | Mechanics & Strategy]
+### [[strategy-guide/index | Strategy Guide]]
 *The 'How-To' of Empire Building.*
 From early-game economic survival to advanced mainline/branch line network theory.
 
-### [modding-ecosystem | Modding Ecosystem 
+### [[modding-options/index | Modding Options]] 
 *Demystifying NewGRFs.*
 Deep dives into complex industry sets like **FIRS**, **C.H.I.P.S.**, and **WR Extra**. Detailed supply chain charts and mod compatibility guides.
 
-### [community-resources | Community Resources]
+### [[community-inks/index | Community Links]]
 *The Best of the Community.*
 A hand-picked directory of essential Wiki pages, legendary YouTube tutorials, and active forum discussions.
 
