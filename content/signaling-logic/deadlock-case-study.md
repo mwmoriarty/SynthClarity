@@ -1,16 +1,13 @@
 ---
-title: Signal Deadlocks
-date: 2026-04-25
-tags:
-  - signal
-  - deadlock
-description: Identifying and fixing the "staring match" between trains.
+title: "Deadlock Case Study: Solving the 'Staring Match' in action"
+draft: true
+tags: [signal, deadlock]
 ---
 
 One of the most frustrating “pain points” for any player is a gridlocked network. A single misplaced signal can halt an entire economic engine.
 
 ## The Symptom
-Trains are facing each other on a single track, or a junction is “frozen” with no trains able to enter or exit, even though there is empty track ahead.
+Trains are facing each other on a single track, or a junction is 'frozen' with no trains able to enter or exit, even though there is empty track ahead.
 
 ## The Fix: ‘The Spacing Rule’
 The primary cause of deadlocks is often **insufficient spacing** between signals or junctions.
@@ -42,4 +39,4 @@ reserve_paths_through_junctions = true
 
 ---
 **Related Silos:**
-[[Signaling-Networks/index | 🚦 Signaling & Networks]] | [[Pain-Points/index | ⚠️ Pain Points]]
+[[signaling-logic/index| 🚦 Signaling & Networks]] | [[pain-points/index| ⚠️ Pain Points]]

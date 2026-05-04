@@ -1,11 +1,9 @@
 ---
-title: Mission
-tags:
-  - mission
-  - purpose
+title: "My Mission"
+tags: [mission, purpose]
 ---
 
-Helping OpenTTD enthusiasts navigate through the 'Matrix' of information pertaining to the game is my mission.
+My mission is to help fellow OpenTTD enthusiasts navigate through the 'Matrix' of information pertaining to the game is my mission.
 
 The journey to building a presence in OpenTTD can be overwhelming, filled with challenges, frustrations, and uncertainties. My mission is to bridge the gap between where you are now and where you dream of being.
 

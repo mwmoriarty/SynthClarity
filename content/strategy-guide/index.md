@@ -1,11 +1,10 @@
 ---
-title: Mechanics & Strategy
-description: Profitability basics; a breakdown of CargoDist; links to your "Bankrupt Save" case studies. Understanding the hidden math behind a profitable company.
-tags: [mechanics, strategy]
+title: "Strategy Guide"
+description: "Financial advice, logistical help, cargo distribution geudance, and gerneral tops and strategies are offered."
+tags: [guide, strategy]
 ---
 
 # Mechanics & Strategy
-
 It is easy to move cargo; it is difficult to move it efficiently. This section breaks down the "Why" behind the "How."
 
 ## Common Pain Points
@@ -14,5 +13,8 @@ It is easy to move cargo; it is difficult to move it efficiently. This section b
 * **CargoDist:** Dealing with passengers who refuse to go where you want them to.
 
 ## Featured Case Study
-* [[Saving a Bankrupt Save: Identifying the Leak in the Logistics(link)]]
-* [[Profit Calculation Case Study(/Mechaniss-Strategy/profit-calculation-case-study.md)]]
+* [[saving-a-bankrupt-save | Saving a Bankrupt Save: Identifying the Leak in Logistics]]
+* [[profit-calculation-case-study | Profit Calculation Case Study]]
+
+---
+[[index | ← Back to Home]]

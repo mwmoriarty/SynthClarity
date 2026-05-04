@@ -1,7 +1,6 @@
 ---
-title: Contact
-tags:
-  - contact
+title: "Contact"
+tags: [contact]
 ---
 
 ### Get in Touch
@@ -28,3 +27,6 @@ tags:
   </button>
 </form>
 
+
+---
+[[index | ← Back to Home]]

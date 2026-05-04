@@ -1,6 +1,6 @@
 ---
-title: Pain Points
-description: This is our main hub; a categorized list of "I have a problem with..." links pointing to case studies and other topics.
+title: "Pain Points"
+description: "This is our main hub. It is a categorized list of 'I have a problem with...' links pointing to case studies and other topics."
 tags: [troubleshooting, obstacles]
 ---
 
@@ -32,5 +32,6 @@ This collection of articles is dedicated to resolving the specific friction poin
 ---
 > [!TIP] **Collaborate**
 > If you have a specific "pain point" not listed here, please [Open an Issue](https://github.com/mwmoriarty/TTDClarity/issues) on GitHub.
+
 ---
 [[index | ← Back to Home]]

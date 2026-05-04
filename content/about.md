@@ -1,8 +1,6 @@
 ---
-title: About
-tags:
-  - About
-  - Author
+title: "About Me"
+tags: [about, author]
 ---
 
 Hi, I’m Michael!
@@ -16,3 +14,6 @@ Over the years, I have discovered that my true passion lies in _web design and 
 I also dedicate time to addressing the “[_digital divide_](https://www.digital-divide.ca/)” — a generational gap in technology access and understanding. Through hands-on workshops, one-on-one lessons, and peer-led drop-in sessions, I have helped older adults embrace technology with confidence and enthusiasm.
 
 Thank you for visiting my website! Whether you’re looking for tips to _establish your online presence_, guidance on navigating digital challenges, or simply inspiration, I hope you will find something valuable here. Feel free to reach out with any questions or suggestions — I am always happy to [connect](https://www.ttdclarity.com/contact-me).
+
+---
+[[index | ← Back to Home]]
