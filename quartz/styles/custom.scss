@@ -9,7 +9,7 @@
 @font-face {font-family:'OpenSans'; src:url('/static/fonts/OpenSans.woff2') format('woff2'); font-weight:300; font-style:normal; font-display:swap}
 @font-face {font-family:'UbuntuMono'; src:url('/static/fonts/UbuntuMono.woff2') format('woff2'); font-weight:400; font-style:normal; font-display:swap}
 
-/* Fonts */
+/* Font Variables */
 :root {
       --mono:'Argon','Inter',sans-serif;
       --mech:'Krypton','Consolas',monospace;
@@ -25,7 +25,7 @@
   --codeFont:'Krypton','Consolas',monospace;
 }
 
-/* Colors */
+/* Color Variables */
 :root {
           --light: oklch(0.99 0.001 15); /* #fcfbfb */
       --lightgray: oklch(0.78 0.010 15); /* #beb5b5 */
@@ -60,7 +60,13 @@
     position: absolute;
     top: calc(50% - 10px);
 }
-/* 
+.breadcrumb-container {
+  font-size: 0.85rem;
+  margin: 0; padding-top: 0.5rem;
+}
+
+/* Config Colors
+
       colors: {
         lightMode: {
           light: "#fcfbfb",
@@ -77,7 +83,7 @@
           light: "#001718",
           lightgray: "#334746",
           gray: "#717d7d",
-          darkgray: "#b0b9b9a",
+          darkgray: "#b0b9b9",
           dark: "#fbfcfc",
           secondary: "#a4666b",
           tertiary: "#804d51",
@@ -85,6 +91,7 @@
           textHighlight: "#fafaea26",
         },
  */
+ 
 /* Typography */
 a,code,p {font-weight:300; line-height:1.45}
 a {font-family:var(--mono);text-decoration:underline solid}

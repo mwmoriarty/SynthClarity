@@ -12,7 +12,7 @@ Our goal is simple: **Clear the path from confusion to mastery.**
 ## Navigate the Knowledge Base
 Choose your current objective to dive into our structured content silos:
 
-### [[pain-points/index | Pain Points]]
+### [[common-hurdles/index| Pain Points]]
 *Stuck? Start here.* Targeted solutions for common friction points: signal deadlocks, station bottlenecks, and "why isn't this train moving?"
 
 ### [[strategy-guide/index | Strategy Guide]]
