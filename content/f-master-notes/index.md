@@ -2,6 +2,7 @@
 title: "Mastery Notes"
 description: "This is a curated index of the “motherlode” of knowledge from **Master Hellish**. I have distilled these videos into their core takeaways to help you find the right solution at the right time."
 order: 600
+date: 2026-05-05
 ---
 
 This is a curated index of the **_motherlode_** of knowledge from **Master Hellish**. I have distilled these videos into their core takeaways to help you find the right solution at the right time. I call it the **_Master Hellish Compendium_**.

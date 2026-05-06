@@ -2,11 +2,12 @@
 title: "Common Hurdles"
 description: "A hub of real-world 'Reality Checks' and peer-to-peer stories for overcoming common OpenTTD friction points."
 order: 300
+date: 2026-05-02
 ---
 
 # Common Hurdles
 
-Welcome to the hub of "The Matrix." This folder is not a technical manual — it is a collection of my own stories, mistakes, and "Aha!" moments. Each case study here is a bridge to the **[[mastery-notes/index | Mastery Notes]]**, linking my real-world struggles to the expert demonstrations that solved them.
+Welcome to the hub of "The Matrix." This folder is not a technical manual — it is a collection of my own stories, mistakes, and "Aha!" moments. Each case study here is a bridge to the **[[f-master-notes/index| Mastery Notes]]**, linking my real-world struggles to the expert demonstrations that solved them.
 
 ## [[mayor-forgiveness| Mayor's Forgiveness]]
 Resetting your city rating (and the sapling secret).

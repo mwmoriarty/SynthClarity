@@ -93,8 +93,8 @@
  */
  
 /* Typography */
-a,code,p {font-weight:300; line-height:1.45}
-a {font-family:var(--mono);text-decoration:underline solid}
+a,code,p {font-size:0.9rem;font-weight:300; line-height:1.45}
+a {font-family:var(--sans);text-decoration:underline solid}
 code {font-family:var(--mech);font-size:0.9em; background:oklch(0.98 0.01 140); border:1px solid oklch(0.36 0.04 140 / 0.1)}
 body {font-weight:300; font-size:1.00rem; line-height:1.6; font-family:var(--para)}
 h1,h2,h3,h4 {font-weight:500; line-height:1.45; font-family:var(--head)}
@@ -113,3 +113,45 @@ footer {
 }
 footer a {color:var(--quaternary)}
 
+/* Explore Font sizes */
+.explorer {
+  button, a, span {font-size: 1rem !important}
+  .folder-button > span {font-weight: 700 !important}
+  li > a {font-weight: 300 !important}
+}
+
+/* Custom styling for the Mastery Notes Table */
+table {
+  width: 100%;
+  display: table;
+  border-collapse: collapse;
+}
+
+/* Make the "Watch" link look like a small action button */
+td a[href*="youtube.com"] {
+  background-color: var(--secondary);
+  color: var(--light) !important;
+  padding: 2px 8px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+td a[href*="youtube.com"]:hover {background-color: var(--tertiary)}
+
+/* Force tags to display horizontally and wrap if needed */
+.tags {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+}
+
+/* Ensure tags stay in the right column (Desktop) */
+@media (min-width: 800px) {
+  .center .tags {display: none !important}
+  .right .tags {display: flex !important;margin-top: 1rem}
+}
