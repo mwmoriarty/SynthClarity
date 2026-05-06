@@ -1,8 +1,8 @@
 ---
 title: "Passenger Paradox"
-theme: "Industry & Cargo" 
+theme: "Common Hurdles" 
 tags: [passengers, road-transit, throughput, city-growth]
-order: 6
+order: 330
 ---
 
 When I first started, I treated passengers like coal: I would wait for a station to be 'Full' before moving them. I built a massive bus terminal and sat back, waiting for the profit to roll in. Instead, my station rating plummeted to **Appalling** and the passengers seemed to just... vanish.

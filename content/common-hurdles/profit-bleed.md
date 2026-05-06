@@ -1,8 +1,8 @@
 ---
 title: "Profit Bleed"
-theme: "Economic Friction"
+theme: "Common Hurdles"
 tags: [maintenance, profit, auto-replace, bankruptcy]
-order: 5
+order: 320
 ---
 
 In my early years of playing, I thought the only way to fail was to not have enough trains. I built a massive network, but suddenly, my cash flow turned red. I was moving more coal than ever, yet my 'Matrix' was showing a steady bleed of money.

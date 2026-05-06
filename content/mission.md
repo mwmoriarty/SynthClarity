@@ -1,5 +1,6 @@
 ---
 title: My Mission
+order: 004
 ---
 
 ## Clarity in the Matrix

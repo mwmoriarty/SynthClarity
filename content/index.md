@@ -2,30 +2,37 @@
 title: "Digital Museum & Strategy Guide"
 layout: page
 tags: [home]
+order: 001
 ---
 
 # Welcome to TTD Clarity
-**TTD Clarity** is a curated navigational layer for the transport simulation enthusiast. In a world of fragmented wikis, decade-old forum threads, and endless video tutorials, we provide the signal through the noise. 
+**TTD Clarity** is a curated navigational layer for the transport simulation enthusiast. In a world of fragmented wikis, decade-old forum threads, and endless video tutorials, I provide the signal through the noise. My goal is simple: **Clear the path from confusion to mastery.** Choose your current objective to dive into our structured content.
 
-Our goal is simple: **Clear the path from confusion to mastery.**
+### [[getting-started/index|Getting Started]]
+Links to modern installers and common resolution/UI scaling fixes. I try to present this in a case study type format to make it more relatable and easier to comprehend.
 
-## Navigate the Knowledge Base
-Choose your current objective to dive into our structured content silos:
-
-### [[common-hurdles/index| Pain Points]]
-*Stuck? Start here.* Targeted solutions for common friction points: signal deadlocks, station bottlenecks, and "why isn't this train moving?"
-
-### [[strategy-guide/index | Strategy Guide]]
-*The 'How-To' of Empire Building.*
-From early-game economic survival to advanced mainline/branch line network theory.
-
-### [[modding-options/index | Modding Options]] 
+### [[modding-options/index|Modding Options]] 
 *Demystifying NewGRFs.*
 Deep dives into complex industry sets like **FIRS**, **C.H.I.P.S.**, and **WR Extra**. Detailed supply chain charts and mod compatibility guides.
 
-### [[community-inks/index | Community Links]]
-*The Best of the Community.*
-A hand-picked directory of essential Wiki pages, legendary YouTube tutorials, and active forum discussions.
+### [[common-hurdles/index|Common Hurdles]]
+*Stuck? Start here.* Targeted solutions for common friction points: signal deadlocks, station bottlenecks, and "why isn't this train moving?"
+
+### [[signaling-logic/index|Signaling Logic]]
+**The All Important Signals**<br />
+A visual guide to Signal types and junction designs to eliminate train deadlocks.
+
+### [[strategy-guide/index|Strategy Guide]]
+**The 'How-To' of Empire Building.**<br />
+From early-game economic survival to advanced mainline/branch line network theory.
+
+### [[mastery-notes/indes|Mastery Notes]]
+**The 'Motherlode' of video Tutorials**<br />
+A curated list of **Master Hellish** video tutorials - core takeaways to help you find the right solution.
+
+### [[essential-inks/index|Essential Links]]
+**The Best of the Community**<br />
+A hand-picked directory of essential Wiki pages, YouTube tutorials, and active forum discussions.
 
 ## Open Source & Collaborative
 This project is built **"brick by brick"** and hosted entirely on GitHub. We thrive on community accuracy.

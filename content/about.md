@@ -1,6 +1,7 @@
 ---
 title: "About Me"
 tags: [about, author]
+order: 002
 ---
 
 Hi, I’m Michael!

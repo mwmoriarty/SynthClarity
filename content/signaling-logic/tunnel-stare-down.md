@@ -1,9 +1,9 @@
 ---
 title: "Tunnel Stare-Down"
 description: "Resolving the head-on deadlock at single-track bottlenecks."
-theme: "Flow & Signaling"
+theme: "Signaling Logic"
 tags: [signaling, pathfinding, bottlenecks, tunnels]
-order: 2
+order: 410
 ---
 I remember building my first long-distance line through a mountain range. To save money (the **Why**), I built a single-track tunnel. It worked fine for one train, but as soon as I added a second, I found them both parked at the tunnel mouths (the **Where**), staring each other down like two stubborn mules.
 

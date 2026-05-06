@@ -1,8 +1,8 @@
 ---
 title: "UI Squint"
-theme: "Interface & Settings"
+theme: "Getting Started"
 tags: [ui, fonts, scaling, settings]
-order: 4
+order: 110
 ---
 
 When I fired up the game on my modern PC after a few years away, I thought my eyesight had finally failed me. The menus were the size of postage stamps, and reading the profit reports required a magnifying glass. I spent an hour squinting at the screen, frustrated that a game I loved felt 'broken' on new hardware.
