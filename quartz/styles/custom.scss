@@ -51,15 +51,7 @@
   --textHighlight: oklch(0.98 0.02 105 / 15%); /* #fafaea26 */
   }
 }
-.readermode svg {
-    width: 20px;
-    height: 20px;
-    fill: #666666;
-    stroke: #666666;
-    transition: opacity .1s;
-    position: absolute;
-    top: calc(50% - 10px);
-}
+
 .breadcrumb-container {
   font-size: 0.85rem;
   margin: 0; padding-top: 0.5rem;
@@ -115,9 +107,9 @@ footer a {color:var(--quaternary)}
 
 /* Explore Font sizes */
 .explorer {
-  button, a, span {font-size: 1rem !important}
+  button, a, span {font-size: 1.175rem !important; font-family:var(--link) !important}
   .folder-button > span {font-weight: 700 !important}
-  li > a {font-weight: 300 !important}
+  li > a {font-size:1.0rem !important; font-weight: 300 !important; padding-left:1rem}
 }
 
 /* Custom styling for the Mastery Notes Table */
@@ -150,8 +142,9 @@ td a[href*="youtube.com"]:hover {background-color: var(--tertiary)}
   padding: 0;
 }
 
-/* Ensure tags stay in the right column (Desktop) */
+/* Ensure tags stay in the right column */
 @media (min-width: 800px) {
   .center .tags {display: none !important}
   .right .tags {display: flex !important;margin-top: 1rem}
 }
+
