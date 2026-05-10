@@ -6,13 +6,13 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Synth Clarity",
+    pageTitle: "Quartz Clarity",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: {provider: "plausible",},
     locale: "en-US",
-    baseUrl: "https://www.synthclarity.com",
+    baseUrl: "https://www.quartzclarity.com",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {

@@ -8,7 +8,6 @@ cssclasses: [artists-silo]
 This space is dedicated to the architects of the *Forbidden Planet* mythos - from the writers who explored the depths of the "Id" to the pioneers who birthed a new language of sound.
 
 ## <img src="assets/research.png" width="48" style="vertical-align: middle;"> Current Research:
-- [ ] [[barrons-sound-effect-legacy|Barrons Sound Effect Legacy]]
 - [ ] [[barrons-sound-effect-legacy|Barrons Sound Effect Legacy]]: Exploring the life and DIY genius of the Barrons
 - [ ] [[forbidden-planet-novelization|Forbidden Planet Novelization]]: Analyzing the Forbidden Planet Novelization
 - [ ] [[MGM Design Team Visual Legacy]]: Delving into the Krell laboratories visual legacy
