@@ -27,38 +27,64 @@
 
 /* Color Variables */
 :root {
-          --light: oklch(0.99 0.001 15); /* #fcfbfb */
-      --lightgray: oklch(0.78 0.010 15); /* #beb5b5 */
-           --gray: oklch(0.58 0.015 15); /* #837777 */
-       --darkgray: oklch(0.38 0.025 15); /* #4f3d3e */ 
-           --dark: oklch(0.18 0.045 15); /* #22080b */ 
-      --secondary: oklch(0.58 0.080 195); /* #358989 */
-       --tertiary: oklch(0.48 0.070 195); /* #216a6a */
-     --quaternary: oklch(0.38 0.060 195); /* #0d4c4c */
-      --highlight: oklch(0.88 0.020 195 / 15%); /* rgba(201, 220, 219, 0.15) */
-  --textHighlight: oklch(0.98 0.020 105 / 15%); /* #fafaea26 */
+          --light:oklch(0.99 0.001 15);  /* #fcfbfb */
+      --lightgray:oklch(0.78 0.010 15);  /* #beb5b5 */
+           --gray:oklch(0.58 0.015 15);  /* #837777 */
+       --darkgray:oklch(0.38 0.025 15);  /* #4f3d3e */ 
+           --dark:oklch(0.18 0.045 15);  /* #22080b */
+        --primary:oklch(0.68 0.090 195); /* #358989?*/
+      --secondary:oklch(0.58 0.080 195); /* #358989 */
+       --tertiary:oklch(0.48 0.070 195); /* #216a6a */
+     --quaternary:oklch(0.38 0.060 195); /* #0d4c4c */
+      --highlight:oklch(0.88 0.020 195 / 15%); /* rgba(201, 220, 219, 0.15) */
+  --textHighlight:oklch(0.98 0.020 105 / 15%); /* #fafaea26 */
 
   [data-theme="dark"] {
-          --light: oklch(0.18 0.045 195); /* #001718 */
-      --lightgray: oklch(0.38 0.025 195); /* #334746 */ 
-           --gray: oklch(0.58 0.015 195); /* #717d7d */
-       --darkgray: oklch(0.78 0.010 195); /* #b0b9b9 */
-           --dark: oklch(0.99 0.001 195); /* #fbfcfc */
-      --secondary: oklch(0.58 0.080 15);  /* #a4666b */
-       --tertiary: oklch(0.48 0.070 15);  /* #804d51 */
-     --quaternary: oklch(0.58 0.080 15);    /* #a4666b */
-      --highlight: oklch(0.68 0.020 15 / 15%); /* rgba(165, 147, 148, 0.15) */
-  --textHighlight: oklch(0.98 0.02 105 / 15%); /* #fafaea26 */
+          --light:oklch(0.18 0.045 195); /* #001718 */
+      --lightgray:oklch(0.38 0.025 195); /* #334746 */ 
+           --gray:oklch(0.58 0.015 195); /* #717d7d */
+       --darkgray:oklch(0.78 0.010 195); /* #b0b9b9 */
+           --dark:oklch(0.99 0.001 195); /* #fbfcfc */
+        --primary:oklch(0.68 0.090 15);  /* #a4666b?*/
+      --secondary:oklch(0.58 0.080 15);  /* #a4666b */
+       --tertiary:oklch(0.48 0.070 15);  /* #804d51 */
+     --quaternary:oklch(0.58 0.080 15);  /* #a4666b */
+      --highlight:oklch(0.68 0.020 15 / 15%); /* rgba(165, 147, 148, 0.15) */
+  --textHighlight:oklch(0.98 0.02 105 / 15%); /* #fafaea26 */
   }
 }
-
-.breadcrumb-container {
-  font-size: 0.85rem;
-  margin: 0; padding-top: 0.5rem;
-}
+.logo-container .logo-image {max-width:320px;height:80px;transition:transform .2s;margin-top:2rem}
+.breadcrumb-container {font-size:1.0rem;margin-top:1.5rem;padding-top:1.0rem}
 
 /* Config Colors
 
+   [Synth]
+      colors: {
+        lightMode: {
+          light: "#fcfaf6",       // Cream Ground Plane (Hue 60)
+          lightgray: "#e8e1d5",   // Soft Tan (Borders)
+          gray: "#8c7e6d",        // Muted Taupe (UI Elements)
+          darkgray: "#3d342b",    // Deep Brown (Body Text)
+          dark: "#2a241e",        // Almost Black-Brown (Headers)
+          secondary: "#8a3c6b",   // Plum (Headers/Links) - Hue 330
+          tertiary: "#5a7a7a",    // Teal (Secondary Accents) - Hue 195
+          highlight: "rgba(138, 60, 107, 0.1)", // Subtle Plum wash
+          textHighlight: "#fff2e0",
+        },
+        darkMode: {
+          light: "#1a1612",       // Dark Brown Background (Hue 60)
+          lightgray: "#2e2822",   // Deep Bronze (Borders)
+          gray: "#6e6255",        // Muted Earth Tone
+          darkgray: "#e3dacc",    // Off-White/Cream (Body Text)
+          dark: "#fcfaf6",        // Stark Cream (Headers)
+          secondary: "#6eb0b0",   // Glowing Teal (Headers/Links) - Hue 195
+          tertiary: "#a6688d",    // Plum (Secondary Accents) - Hue 330
+          highlight: "rgba(110, 176, 176, 0.15)", // Subtle Teal wash
+          textHighlight: "#2a241e",
+        },
+      },
+      
+   [TTD]
       colors: {
         lightMode: {
           light: "#fcfbfb",
@@ -82,57 +108,50 @@
           highlight: "rgba(165, 147, 148, 0.15))",
           textHighlight: "#fafaea26",
         },
- */
+      },
+*/
  
 /* Typography */
-a,code,p {font-size:0.9rem;font-weight:300; line-height:1.45}
-a {font-family:var(--sans);text-decoration:underline solid}
+a {font-family:var(--link);text-decoration:underline solid; font-size: 1rem;}
 code {font-family:var(--mech);font-size:0.9em; background:oklch(0.98 0.01 140); border:1px solid oklch(0.36 0.04 140 / 0.1)}
 body {font-weight:300; font-size:1.00rem; line-height:1.6; font-family:var(--para)}
 h1,h2,h3,h4 {font-weight:500; line-height:1.45; font-family:var(--head)}
-h1 {color:var(--secondary); font-size:1.75rem; font-size:clamp(1.75rem,6vw,2.00rem)}
-h2 {color:var(--terciary); font-size:1.50rem; font-size:clamp(1.50rem,5vw,1.75rem)}
-h3 {color:var(--quaternary); font-size:1.25rem; font-size:clamp(1.25rem,4vw,1.50rem)}
+
+/* Headers */
+h1, h2, h3, h5, p {line-height:1.45}
+h1 {color:var(--primary); font-size:2.38rem}
+h2 {color:var(--secondary); font-size:2.00rem}
+h3 {color:var(--tertiary); font-size:1.68rem}
+h4 {color:var(--quaternary); font-size:1.41rem}
  p {font-size:1.00rem}
 
-/* Layout */
-.center {max-width: 65ch; padding-right: 1rem; margin: 0}
-.page-list {max-width: 65ch}
-footer {
-  text-align: center;
-  font-size: 0.9rem;
-  margin-bottom: 2rem;
-}
-footer a {color:var(--quaternary)}
+/* Middle Column Layout */
+.center, .page-list {max-width:65ch;padding:1.0rem}
+ footer {text-align:center;font-size:0.9rem;margin-bottom:2rem}
+ footer a {color:var(--quaternary)}
+ p.meta {padding:0.75rem 0}
 
-/* Explore Font sizes */
+/* Explore Font sizes - Fixed Subservience */
 .explorer {
-  button, a, span {font-size: 1.175rem !important; font-family:var(--link) !important}
-  .folder-button > span {font-weight: 700 !important}
-  li > a {font-size:1.0rem !important; font-weight: 300 !important; padding-left:1rem}
+  button, a, span {font-size:1.15rem; font-family:var(--link)}
+  .folder-button > span {font-weight:700}
+  li > a {font-size:0.9rem; font-weight:400; padding-left:1rem}
 }
 
-/* Custom styling for the Mastery Notes Table */
+/* Mastery Notes Table */
 table {
   width: 100%;
   display: table;
   border-collapse: collapse;
 }
-
-/* Make the "Watch" link look like a small action button */
 td a[href*="youtube.com"] {
-  background-color: var(--secondary);
-  color: var(--light) !important;
-  padding: 2px 8px;
-  border-radius: 4px;
-  text-decoration: none;
-  font-size: 1rem;
-  font-weight: bold;
+  background-color:var(--secondary); color:var(--light);
+  padding:2px 8px; border-radius:4px; text-decoration:none;
+  font-weight:bold; font-size:1rem;
 }
+td a[href*="youtube.com"]:hover {background-color:var(--tertiary)}
 
-td a[href*="youtube.com"]:hover {background-color: var(--tertiary)}
-
-/* Force tags to display horizontally and wrap if needed */
+/* Force tags horizontal */
 .tags {
   display: flex !important;
   flex-direction: row !important;
@@ -141,10 +160,37 @@ td a[href*="youtube.com"]:hover {background-color: var(--tertiary)}
   list-style: none;
   padding: 0;
 }
-
-/* Ensure tags stay in the right column */
 @media (min-width: 800px) {
-  .center .tags {display: none !important}
-  .right .tags {display: flex !important;margin-top: 1rem}
+  .center .tags {display:none !important}
+  .right .tags {display:flex !important; margin-top: 1rem}
 }
+
+/* Note Headers */
+article h1, article h1 a.internal, h1, article h2, article h2 a.internal, h2, article h3, article h3 a.internal, h3 {font-family:var(--head)}
+article h1, article h1 a.internal, h1 {font-size:2.38rem}
+article h2, article h2 a.internal, h2 {font-size:2.00rem}
+article h3, article h3 a.internal, h3 {font-size:1.68rem}
+a.internal {font-size:inherit}
+ 
+/* Explorer Menu */
+.folder-container div>a {
+    color:var(--secondary);
+    font-family:var(--mono) !important;
+    font-size:1.1rem !important;
+    font-weight:400 !important;
+    line-height:1.5rem !important;
+    display:inline-block;
+}
+.explorer button, .explorer a, .explorer span {font-size:0.9rem !important; font-family:var(--mono) !important}
+
+/* Links */
+a {font-weight:400 !important; font-size:1.0rem !important; font-family:var(--mono)!important; text-decoration:none !important; transition:color 0.2s}
+a.internal {background-color:#ffffff00; border-radius:0; padding:0; line-height:1.5; text-decoration:none}
+
+/* ARTIST SILO (Brown) */
+body:has(.artists-silo) {h1.article-title, :is(h1, h2, h3)[id], a, a.folder-title, a.internal-alias, a.internal, a.inview {color:oklch(0.45 0.1 60) !important; text-decoration: none !important}}
+/* GEAR SILO (Teal) */
+body:has(.gear-silo) {h1.article-title, :is(h1, h2, h3)[id], a, a.folder-title, a.internal-alias, a.internal, a.inview {color:oklch(0.45 0.1 195) !important; text-decoration:none !important}}
+/* LINEAGE SILO (Plum) */
+body:has(.lineage-silo) {h1.article-title, :is(h1, h2, h3)[id], a, a.folder-title, a.internal-alias, a.internal, a.inview {color:oklch(0.45 0.1 330) !important; text-decoration:none !important}}
 

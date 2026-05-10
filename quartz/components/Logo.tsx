@@ -7,7 +7,7 @@ const Logo: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
       <a href="/">
         <img 
           src="/static/logo.png" 
-          alt="TTD Clarity Logo" 
+          alt="Synth Clarity Logo" 
           class="logo-image"
           width="320"
         />

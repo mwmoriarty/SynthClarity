@@ -25,26 +25,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#fcfbfb",
-          lightgray: "#beb5b5",
-          gray: "#837777",
-          darkgray: "#4f3d3e",
-          dark: "#22080b",
-          secondary: "#358989",
-          tertiary: "#216a6a",
-          highlight: "rgba(201, 220, 219, 0.05)",
-          textHighlight: "#fafaea26",
+          light: "#fcfaf6",       // Cream Ground Plane (Hue 60)
+          lightgray: "#e8e1d5",   // Soft Tan (Borders)
+          gray: "#8c7e6d",        // Muted Taupe (UI Elements)
+          darkgray: "#3d342b",    // Deep Brown (Body Text)
+          dark: "#2a241e",        // Almost Black-Brown (Headers)
+          secondary: "#8a3c6b",   // Plum (Headers/Links) - Hue 330
+          tertiary: "#5a7a7a",    // Teal (Secondary Accents) - Hue 195
+          highlight: "rgba(138, 60, 107, 0.1)", // Subtle Plum wash
+          textHighlight: "#fff2e0",
         },
         darkMode: {
-          light: "#001718",
-          lightgray: "#334746",
-          gray: "#717d7d",
-          darkgray: "#b0b9b9",
-          dark: "#fbfcfc",
-          secondary: "#a4666b",
-          tertiary: "#804d51",
-          highlight: "rgba(165, 147, 148, 0.05)",
-          textHighlight: "#fafaea26",
+          light: "#1a1612",       // Dark Brown Background (Hue 60)
+          lightgray: "#2e2822",   // Deep Bronze (Borders)
+          gray: "#6e6255",        // Muted Earth Tone
+          darkgray: "#e3dacc",    // Off-White/Cream (Body Text)
+          dark: "#fcfaf6",        // Stark Cream (Headers)
+          secondary: "#6eb0b0",   // Glowing Teal (Headers/Links) - Hue 195
+          tertiary: "#a6688d",    // Plum (Secondary Accents) - Hue 330
+          highlight: "rgba(110, 176, 176, 0.15)", // Subtle Teal wash
+          textHighlight: "#2a241e",
         },
       },
     },
