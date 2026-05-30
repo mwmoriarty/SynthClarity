@@ -1,0 +1,10 @@
+{
+  "tabSize": 2,
+  "livePreview": false,
+  "alwaysUpdateLinks": true,
+  "spellcheck": false,
+  "autoConvertHtml": false,
+  "attachmentFolderPath": "./assets",
+  "newFileLocation": "root",
+  "showUnsupportedFiles": true
+}

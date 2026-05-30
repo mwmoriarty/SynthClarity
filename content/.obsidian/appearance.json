@@ -1,0 +1,11 @@
+{
+  "cssTheme": "",
+  "theme": "system",
+  "interfaceFontFamily": "Cantarell",
+  "textFontFamily": "Monaspace Neon Frozen",
+  "monospaceFontFamily": "Monaspace Krypton Frozen",
+  "accentColor": "",
+  "baseFontSizeAction": true,
+  "nativeMenus": true,
+  "baseFontSize": 18
+}
