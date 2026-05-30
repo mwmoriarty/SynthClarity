@@ -1,19 +1,17 @@
 ---
-# Gear
-title: "Gear"
-cssclasses: [gear-silo]
+title: "Synth"
+cssclasses: [css-s]
 ---
-
-# Gear and Electronic Tonalities
 
 Welcome to the engineering bay. Here, we document the technical "firmware" that made *Forbidden Planet* a reality—both the Krell technology on screen and the vacuum-tube circuitry in the studio.
 
-### Current Research:
+<h2><img src="assets/research.png" width="48" style="vertical-align: middle;">Current Research</h2>
 * **[[Living Circuits]]:** Documentation of the self-destructing ring modulators and oscillators.
-* **[[Robby the Robot]]:** The mechanical engineering and functional history of the world's most famous prop.
+* **[[barrons-sound-effect-legacy]]:** The mechanical engineering and functional history of the world's most famous prop.
 * **[[The Krell Lab]]:** Analyzing the visual and technical layout of the underground city.
 
-### 🔧 Engineering Input
+<h2><img src="assets/volunteer.png" width="52" style="vertical-align:middle">Collaboration</h2>
+
 If you are an **Electronics Engineer**, an **Arduino/ESP32** hobbyist, or a **Synth-head**, your expertise is valued here.
 
 **How to contribute:**

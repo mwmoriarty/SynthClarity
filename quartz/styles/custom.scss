@@ -1,4 +1,5 @@
 @use "./base.scss";
+/* SynthClarity */
 
 @font-face {font-family:'Argon'; src:url('/static/fonts/Argon.woff2') format('woff2'); font-weight:400; font-style:normal; font-display:swap}
 @font-face {font-family:'Krypton'; src:url('/static/fonts/Krypton.woff2') format('woff2'); font-weight:400; font-style:normal; font-display:swap}
@@ -6,6 +7,7 @@
 @font-face {font-family:'Radon'; src:url('/static/fonts/Radon.woff2') format('woff2'); font-weight:400; font-style:normal; font-display:swap}
 @font-face {font-family:'Xenon'; src:url('/static/fonts/Xenon.woff2') format('woff2'); font-weight:600; font-style:normal; font-display:swap}
 @font-face {font-family:'Merriweather'; src:url('/static/fonts/Merriweather.woff2') format('woff2'); font-weight:600; font-style:normal; font-display:swap}
+@font-face {font-family:'Montserrat'; src:url('/static/fonts/Montserrat.woff2') format('woff2'); font-weight:400; font-style:normal; font-display:swap}
 @font-face {font-family:'OpenSans'; src:url('/static/fonts/OpenSans.woff2') format('woff2'); font-weight:300; font-style:normal; font-display:swap}
 @font-face {font-family:'UbuntuMono'; src:url('/static/fonts/UbuntuMono.woff2') format('woff2'); font-weight:400; font-style:normal; font-display:swap}
 
@@ -18,112 +20,101 @@
       --serf:'Xenon','Georgia',serif;
       --link:'UbuntuMono','Courier New',monospace;
       --head:'Merriweather','Georgia',serif;
+      --mont:'Montserrat','Arial',sans-serif;
       --para:'OpenSans','Verdana',sans-serif;
- --titleFont:'Merriweather','Georgia',serif;
---headerFont:'Merriweather','Georgia',serif;
-  --bodyFont:'OpenSans','Verdana',sans-serif;
-  --codeFont:'Krypton','Consolas',monospace;
+ --titleFont: var(--head);
+--headerFont: var(--head);
+  --bodyFont: var(--sans);
+  --codeFont: var(--mech);
 }
+
+/*
+  oklch(0.55 0.06 195); Teal
+  oklch(0.55 0.100 50); Brun
+  oklch(0.55 0.12 330); Plum
+*/
 
 /* Color Variables */
 :root {
-          --light:oklch(0.99 0.001 15);  /* #fcfbfb */
-      --lightgray:oklch(0.78 0.010 15);  /* #beb5b5 */
-           --gray:oklch(0.58 0.015 15);  /* #837777 */
-       --darkgray:oklch(0.38 0.025 15);  /* #4f3d3e */ 
-           --dark:oklch(0.18 0.045 15);  /* #22080b */
-        --primary:oklch(0.68 0.090 195); /* #358989?*/
-      --secondary:oklch(0.58 0.080 195); /* #358989 */
-       --tertiary:oklch(0.48 0.070 195); /* #216a6a */
-     --quaternary:oklch(0.38 0.060 195); /* #0d4c4c */
-      --highlight:oklch(0.88 0.020 195 / 15%); /* rgba(201, 220, 219, 0.15) */
-  --textHighlight:oklch(0.98 0.020 105 / 15%); /* #fafaea26 */
+          --light:oklch(0.98 0.005 60); /* #fbf8f5 */
+      --lightgray:oklch(0.85 0.050 60); /* #f5c299 */
+           --gray:oklch(0.65 0.120 60); /* #c47c3b */
+       --darkgray:oklch(0.45 0.080 60); /* #754a23 */ 
+           --dark:oklch(0.25 0.040 60); /* #301d0d */
+        --primary:oklch(0.65 0.12 330) !important; /* #9181d2 */
+      --secondary:oklch(0.55 0.10 330); /* #7463b1 */
+       --tertiary:oklch(0.45 0.16 330); /* #584691 */
+     --quaternary:oklch(0.35 0.10 330); /* #3e2972 */
+      --highlight:oklch(0.90 0.040 60 / 15%); /* rgba(222, 218, 247, 0.15) */
+  --textHighlight:oklch(0.98 0.02 105 / 15%); /* #fafaea26 */
 
   [data-theme="dark"] {
-          --light:oklch(0.18 0.045 195); /* #001718 */
-      --lightgray:oklch(0.38 0.025 195); /* #334746 */ 
-           --gray:oklch(0.58 0.015 195); /* #717d7d */
-       --darkgray:oklch(0.78 0.010 195); /* #b0b9b9 */
-           --dark:oklch(0.99 0.001 195); /* #fbfcfc */
-        --primary:oklch(0.68 0.090 15);  /* #a4666b?*/
-      --secondary:oklch(0.58 0.080 15);  /* #a4666b */
-       --tertiary:oklch(0.48 0.070 15);  /* #804d51 */
-     --quaternary:oklch(0.58 0.080 15);  /* #a4666b */
-      --highlight:oklch(0.68 0.020 15 / 15%); /* rgba(165, 147, 148, 0.15) */
+          --light:oklch(0.20 0.030 60); /* #201308 */
+      --lightgray:oklch(0.35 0.060 60); /* #513217 */ 
+           --gray:oklch(0.50 0.100 60); /* #8c541f */
+       --darkgray:oklch(0.80 0.120 60); /* #f6ab6b */
+           --dark:oklch(0.98 0.005 60); /* #fbf8f8 */
+        --primary:oklch(0.65 0.12 330) !important; /* #9181d2 */
+      --secondary:oklch(0.55 0.10 330); /* #7463b1 */
+       --tertiary:oklch(0.45 0.16 330); /* #584691 */
+     --quaternary:oklch(0.35 0.10 330); /* #3e2972 */
+      --highlight:oklch(0.70 0.120 60 / 15%); /* rgba(213, 139, 75, 0.15) */
   --textHighlight:oklch(0.98 0.02 105 / 15%); /* #fafaea26 */
   }
 }
-.logo-container .logo-image {max-width:320px;height:80px;transition:transform .2s;margin-top:2rem}
-.breadcrumb-container {font-size:1.0rem;margin-top:1.5rem;padding-top:1.0rem}
 
 /* Config Colors
-
-   [Synth]
       colors: {
         lightMode: {
-          light: "#fcfaf6",       // Cream Ground Plane (Hue 60)
-          lightgray: "#e8e1d5",   // Soft Tan (Borders)
-          gray: "#8c7e6d",        // Muted Taupe (UI Elements)
-          darkgray: "#3d342b",    // Deep Brown (Body Text)
-          dark: "#2a241e",        // Almost Black-Brown (Headers)
-          secondary: "#8a3c6b",   // Plum (Headers/Links) - Hue 330
-          tertiary: "#5a7a7a",    // Teal (Secondary Accents) - Hue 195
-          highlight: "rgba(138, 60, 107, 0.1)", // Subtle Plum wash
+          light: "#fbf8f8",
+          lightgray: "#f5c299",
+          gray: "#c47c3b",
+          darkgray: "#754a23",
+          dark: "#301d0d",
+          secondary: "#7463b1",
+          tertiary: "#584691",
+          highlight: "rgba(138, 60, 107, 0.1)",
           textHighlight: "#fff2e0",
         },
         darkMode: {
-          light: "#1a1612",       // Dark Brown Background (Hue 60)
-          lightgray: "#2e2822",   // Deep Bronze (Borders)
-          gray: "#6e6255",        // Muted Earth Tone
-          darkgray: "#e3dacc",    // Off-White/Cream (Body Text)
-          dark: "#fcfaf6",        // Stark Cream (Headers)
-          secondary: "#6eb0b0",   // Glowing Teal (Headers/Links) - Hue 195
-          tertiary: "#a6688d",    // Plum (Secondary Accents) - Hue 330
-          highlight: "rgba(110, 176, 176, 0.15)", // Subtle Teal wash
+          light: "#201308",
+          lightgray: "#513217",
+          gray: "#8c541f",
+          darkgray: "#f9f8f8",
+          dark: "#fbf8f8",
+          secondary: "#7463b1",
+          tertiary: "#584691",
+          highlight: "rgba(110, 176, 176, 0.15)",
           textHighlight: "#2a241e",
         },
       },
-      
-   [TTD]
-      colors: {
-        lightMode: {
-          light: "#fcfbfb",
-          lightgray: "#beb5b5",
-          gray: "#837777",
-          darkgray: "#4f3d3e",
-          dark: "#22080b",
-          secondary: "#358989",
-          tertiary: "#216a6a",
-          highlight: "rgba(201, 220, 219, 0.15)",
-          textHighlight: "#fafaea26",
-        },
-        darkMode: {
-          light: "#001718",
-          lightgray: "#334746",
-          gray: "#717d7d",
-          darkgray: "#b0b9b9",
-          dark: "#fbfcfc",
-          secondary: "#a4666b",
-          tertiary: "#804d51",
-          highlight: "rgba(165, 147, 148, 0.15))",
-          textHighlight: "#fafaea26",
-        },
-      },
 */
- 
+
+/* Silo cssclasses */
+/*
+body:has(.css-k) {h1.article-title, :is(h1,h2,h3)[id], a, a.folder-title, a.internal-alias, a.internal, a.inview {color:oklch(0.45 0.10 50) !important; text-decoration:none !important;font-size:inherit !important;font-weight:inherit !important}}
+body:has(.css-s) {h1.article-title, :is(h1,h2,h3)[id], a, a.folder-title, a.internal-alias, a.internal, a.inview {color:oklch(0.45 0.1 195) !important; text-decoration:none !important;font-size:inherit !important;font-weight:inherit !important}}
+body:has(.css-t) {h1.article-title, :is(h1,h2,h3)[id], a, a.folder-title, a.internal-alias, a.internal, a.inview {color:oklch(0.45 0.1 330) !important; text-decoration:none !important;font-size:inherit !important;font-weight:inherit !important}}
+*/
 /* Typography */
 a {font-family:var(--link);text-decoration:underline solid; font-size: 1rem;}
-code {font-family:var(--mech);font-size:0.9em; background:oklch(0.98 0.01 140); border:1px solid oklch(0.36 0.04 140 / 0.1)}
+code {font-family:var(--mech);font-size:0.9em; background:oklch(0.98 0.01 50); border:1px solid oklch(0.36 0.04 50 / 0.1)}
 body {font-weight:300; font-size:1.00rem; line-height:1.6; font-family:var(--para)}
-h1,h2,h3,h4 {font-weight:500; line-height:1.45; font-family:var(--head)}
+h1,h2,h3,h4 {font-weight:400; line-height:1.45; font-family:var(--mont)}
 
 /* Headers */
-h1, h2, h3, h5, p {line-height:1.45}
-h1 {color:var(--primary); font-size:2.38rem}
-h2 {color:var(--secondary); font-size:2.00rem}
-h3 {color:var(--tertiary); font-size:1.68rem}
-h4 {color:var(--quaternary); font-size:1.41rem}
+
+h1, h2, h3, p {line-height:1.45}
+h1, h1.article-title {color:var(--primary) !important; font-size:2.38rem !important}
+h2, h2.article-title {color:var(--secondary) !important; font-size:2.00rem !important}
+h3, h3.article-title {color:var(--tertiary) !important; font-size:1.68rem !important}
  p {font-size:1.00rem}
+h3 a.external {font-size:inherit !important;font-weight:inherit !important}
+
+/* Logo and Breadcrumb */
+.logo-container .logo-image {max-width:320px;height:80px;transition:transform .2s;margin-top:2rem}
+.breadcrumb-container {font-size:1.0rem;margin-top:1.5rem;padding-top:1.0rem}
+.toc img {display:none !important}
 
 /* Middle Column Layout */
 .center, .page-list {max-width:65ch;padding:1.0rem}
@@ -139,58 +130,27 @@ h4 {color:var(--quaternary); font-size:1.41rem}
 }
 
 /* Mastery Notes Table */
-table {
-  width: 100%;
-  display: table;
-  border-collapse: collapse;
-}
-td a[href*="youtube.com"] {
-  background-color:var(--secondary); color:var(--light);
-  padding:2px 8px; border-radius:4px; text-decoration:none;
-  font-weight:bold; font-size:1rem;
-}
+table {width: 100%; display: table; border-collapse: collapse}
+td a[href*="youtube.com"] {background-color:var(--secondary); color:var(--light); padding:2px 8px; border-radius:4px; text-decoration:none; font-weight:bold; font-size:1rem}
 td a[href*="youtube.com"]:hover {background-color:var(--tertiary)}
 
 /* Force tags horizontal */
-.tags {
-  display: flex !important;
-  flex-direction: row !important;
-  flex-wrap: wrap !important;
-  gap: 0.5rem;
-  list-style: none;
-  padding: 0;
-}
-@media (min-width: 800px) {
-  .center .tags {display:none !important}
-  .right .tags {display:flex !important; margin-top: 1rem}
-}
+.tags {display: flex !important; flex-direction: row !important; flex-wrap: wrap !important; gap: 0.5rem; list-style: none; padding: 0}
+@media (min-width: 800px) {.center .tags {display:none !important} .right .tags {display:flex !important; margin-top: 1rem}}
 
-/* Note Headers */
-article h1, article h1 a.internal, h1, article h2, article h2 a.internal, h2, article h3, article h3 a.internal, h3 {font-family:var(--head)}
-article h1, article h1 a.internal, h1 {font-size:2.38rem}
-article h2, article h2 a.internal, h2 {font-size:2.00rem}
-article h3, article h3 a.internal, h3 {font-size:1.68rem}
-a.internal {font-size:inherit}
- 
+/* Note Headers and Header Links */
+article h1, article h1 a.internal, article h1 a.external {font-size:2.38rem !important;font-family:var(--mont) !important}
+article h2, article h2 a.internal, article h2 a.external {font-size:2.00rem !important;font-family:var(--mont) !important}
+article h3, article h3 a.internal, article h3 a.external {font-size:1.68rem !important;font-family:var(--mont) !important} 
+
 /* Explorer Menu */
-.folder-container div>a {
-    color:var(--secondary);
-    font-family:var(--mono) !important;
-    font-size:1.1rem !important;
-    font-weight:400 !important;
-    line-height:1.5rem !important;
-    display:inline-block;
-}
+.folder-container div>a {color:var(--secondary); font-family:var(--mono) !important; font-size:1.1rem !important; font-weight:400 !important; line-height:1.5rem !important; display:inline-block}
 .explorer button, .explorer a, .explorer span {font-size:0.9rem !important; font-family:var(--mono) !important}
 
 /* Links */
 a {font-weight:400 !important; font-size:1.0rem !important; font-family:var(--mono)!important; text-decoration:none !important; transition:color 0.2s}
 a.internal {background-color:#ffffff00; border-radius:0; padding:0; line-height:1.5; text-decoration:none}
 
-/* ARTIST SILO (Brown) */
-body:has(.artists-silo) {h1.article-title, :is(h1, h2, h3)[id], a, a.folder-title, a.internal-alias, a.internal, a.inview {color:oklch(0.45 0.1 60) !important; text-decoration: none !important}}
-/* GEAR SILO (Teal) */
-body:has(.gear-silo) {h1.article-title, :is(h1, h2, h3)[id], a, a.folder-title, a.internal-alias, a.internal, a.inview {color:oklch(0.45 0.1 195) !important; text-decoration:none !important}}
-/* LINEAGE SILO (Plum) */
-body:has(.lineage-silo) {h1.article-title, :is(h1, h2, h3)[id], a, a.folder-title, a.internal-alias, a.internal, a.inview {color:oklch(0.45 0.1 330) !important; text-decoration:none !important}}
+/* Bullet Spacing */
+.homepage-features-list {& > ul > li {margin-bottom:2.5rem; &:last-child {margin-bottom:0} ul {margin-top:0.5rem; li {margin-bottom:0.25rem}}}}
 

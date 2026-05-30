@@ -1,19 +1,19 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
-/**
- * Quartz 4 Configuration
- * See https://quartz.jzhao.xyz/configuration for more information.
- */
+/*
+** Quartz 4 Configuration | https://quartz.jzhao.xyz/configuration
+*/
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Synth Clarity",
     pageTitleSuffix: "",
+    contentDir: "content-synth",
     enableSPA: true,
     enablePopovers: true,
     analytics: {provider: "plausible",},
     locale: "en-US",
-    baseUrl: "https://www.synthclarity.com",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    baseUrl: "www.synthclarity.com",
+    ignorePatterns: ["private", "templates", ".obsidian", "sources"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "local",
@@ -25,25 +25,25 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#fcfaf6",       // Cream Ground Plane (Hue 60)
-          lightgray: "#e8e1d5",   // Soft Tan (Borders)
-          gray: "#8c7e6d",        // Muted Taupe (UI Elements)
-          darkgray: "#3d342b",    // Deep Brown (Body Text)
-          dark: "#2a241e",        // Almost Black-Brown (Headers)
-          secondary: "#8a3c6b",   // Plum (Headers/Links) - Hue 330
-          tertiary: "#5a7a7a",    // Teal (Secondary Accents) - Hue 195
-          highlight: "rgba(138, 60, 107, 0.1)", // Subtle Plum wash
+          light: "#fcfaf6",
+          lightgray: "#e8e1d5",
+          gray: "#8c7e6d",
+          darkgray: "#3d342b",
+          dark: "#2a241e",
+          secondary: "#8a3c6b",
+          tertiary: "#5a7a7a",
+          highlight: "rgba(138, 60, 107, 0.1)",
           textHighlight: "#fff2e0",
         },
         darkMode: {
-          light: "#1a1612",       // Dark Brown Background (Hue 60)
-          lightgray: "#2e2822",   // Deep Bronze (Borders)
-          gray: "#6e6255",        // Muted Earth Tone
-          darkgray: "#e3dacc",    // Off-White/Cream (Body Text)
-          dark: "#fcfaf6",        // Stark Cream (Headers)
-          secondary: "#6eb0b0",   // Glowing Teal (Headers/Links) - Hue 195
-          tertiary: "#a6688d",    // Plum (Secondary Accents) - Hue 330
-          highlight: "rgba(110, 176, 176, 0.15)", // Subtle Teal wash
+          light: "#1a1612",
+          lightgray: "#2e2822",
+          gray: "#6e6255",
+          darkgray: "#e3dacc",
+          dark: "#fcfaf6",
+          secondary: "#6eb0b0",
+          tertiary: "#a6688d",
+          highlight: "rgba(110, 176, 176, 0.15)",
           textHighlight: "#2a241e",
         },
       },
